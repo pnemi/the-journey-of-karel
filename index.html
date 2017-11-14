@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>The Journey of KAREL</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+  <div id="container">
+
+    <div id="loading">
+      <div class="spinner">
+        <div class="bounce1"></div>
+        <div class="bounce2"></div>
+        <div class="bounce3"></div>
+      </div>
+    </div>
+
+    <!-- GAME MENU -->
+    <div id="menu">
+
+      <div id="controls">
+        W, S, A, D = Movement ~ Left Mouse Click = Shooting
+      </div>
+
+      <div id="logo"></div>
+      <!-- <div id="level-annotation"></div> -->
+      <div class="dropdown">
+        <button class="dropdown-button icon">Profile</button>
+        <div class="dropdown-content">
+          <ul id="actions">
+            <li class="header">Actions</li>
+            <!-- <li><a role="button" class="icon" id="rename">Rename</a></li> -->
+            <li><a role="button" class="icon" id="delete">Reset</a></li>
+            <!-- <li><a role="button" class="icon" id="create">Create New</a></li> -->
+          </ul>
+          <ul id="profiles">
+            <li class="header">Switch Profile</li>
+          </ul>
+        </div>
+      </div>
+
+      <div id="levels">
+      </div>
+
+    </div>
+
+    <!-- SHOP, INVENTORY & ARTIFACTS-->
+    <canvas id="inventory" width="1200" height="600"></canvas>
+
+    <!-- GAME CANVAS -->
+    <canvas id="game" width="1200" height="600"></canvas>
+  </div>
+
+  <!-- Libraries -->
+  <script src="js/jquery-2.2.3.min.js" charset="utf-8"></script>
+  <script src="js/ocanvas-2.8.3.min.js" charset="utf-8"></script>
+  <script src="js/pako.min.js" charset="utf-8"></script>
+  <script src="js/sat.min.js" charset="utf-8"></script>
+  <script src="js/pathfinding-browser.min.js" charset="utf-8"></script>
+  <script src="js/radialIndicator.min.js" charset="utf-8"></script>
+  <script src="js/AsyncIterator.js" charset="utf-8"></script>
+  <script src="js/vector.js" charset="utf-8"></script>
+
+  <!-- User Classes -->
+  <script src="js/utilities.js" charset="utf-8"></script>
+  <script src="js/quadtree.js" charset="utf-8"></script>
+  <script src="js/collider.js" charset="utf-8"></script>
+  <script src="js/profile.js" charset="utf-8"></script>
+  <script src="js/entities.js" charset="utf-8"></script>
+  <script src="js/asset_manager.js" charset="utf-8"></script>
+  <script src="js/robot.js" charset="utf-8"></script>
+
+  <!-- Exe Scripts -->
+  <script src="js/inventory.js" charset="utf-8"></script>
+  <script src="js/map.js" charset="utf-8"></script>
+  <script src="js/game.js" charset="utf-8"></script>
+
+</body>
+</html>

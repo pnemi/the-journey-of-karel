@@ -1,0 +1,3291 @@
+{
+  "tileset_src": {
+    "tiles": "./img/tiles.png",
+    "artifacts": "./img/artifacts.png",
+    "robots": "./img/robots.png",
+    "items": "./img/items.png"
+  },
+  "maps": [
+    {
+      "name": "Aftermath",
+      "src": "./maps/1.json",
+      "artifacts": ["matrix", "capek"],
+      "annotation": "In the beginning of 3rd millennium, long time ago after extinction of human civilization and reaching singularity, a space probe KAREL is coming back to the planet Earth for the purpose of mining. What he encounters are not only survivor existences but even something else - artifacts, relics of our human race."
+    },
+    {
+      "name": "Politics",
+      "src": "./maps/2.json",
+      "artifacts": ["schabowski", "magna_carta"],
+      "annotation": "Political systems. Each society must have some to maintain recognized procedures for allocating valued resources. It was true at all times. Many decisions must be made about the duties and responsibilities of citizens and also about the rights and privileges."
+    },
+    {
+      "name": "Small Steps",
+      "src": "./maps/3.json",
+      "artifacts": ["wrights", "sputnik"],
+      "annotation": "Brick by brick, it is said. We should be keenly aware that thanks to our ancestors we have come to this moment. Result of their hard work we inherited, on which we can build further, requires a lot of appreciation. Like travelling. From the ground to the sky. From the sky to the space."
+    },
+    {
+      "name": "Devil Is ALive",
+      "src": "./maps/4.json",
+      "artifacts": ["wwii", "twins", "hussein", "charlie", "oppenheimer"],
+      "annotation": "We have done some bad things in the past."
+    },
+    {
+      "name": "Back To The Roots",
+      "src": "./maps/5.json",
+      "artifacts": ["macintosh", "linux", "dos", "hoare", "neumann", "futurama"],
+      "annotation": "You want to know where you came from?"
+    },
+    {
+      "name": "Singularity",
+      "src": "./maps/6.json",
+      "artifacts": ["musk", "hawking", "mccarthy", "turing"],
+      "annotation": "\"Look, the arrival of strong artificial intelligence has been inevitable for decades. The variable was when, not if. One day the AIs are gonna look back on us the same way we look at fossil skeletons in the plains of Africa. An upright ape, living in dust, with crude language and tools. All set for extinction.\" – Ex Machina (Movie)"
+    },
+    {
+      "name": "Unforgettable",
+      "src": "./maps/7.json",
+      "artifacts": ["queen", "kobain", "shakespeare"],
+      "annotation": "From time to time, some people's existence leaves us an immortal legacy. Those are the ones who will be remembered for years, decades and forever."
+    },
+    {
+      "name": "Origin",
+      "src": "./maps/8.json",
+      "artifacts": ["socrates", "bible", "darwin"],
+      "annotation": "Human evolution and origin has always been a mystery."
+    },
+    {
+      "name": "Who We Art",
+      "src": "./maps/9.json",
+      "artifacts": ["beatles", "davinci", "twain", "exupery", "poe", "bieber"],
+      "annotation": "We were born to create."
+    },
+    {
+      "name": "Light In A Tunnel",
+      "src": "./maps/10.json",
+      "artifacts": ["obama", "nobel", "king"],
+      "annotation": "At the end of it al – we saw hope. We are wired to be good in nature. Aren't we?"
+    }
+  ],
+  "artifacts": {
+    "socrates": {
+      "name": "Socrates (Quote)",
+      "year": "469 BC - 399 BC",
+      "emotions": {
+        "anger": false,
+        "disgust": false,
+        "fear": false,
+        "happiness": true,
+        "sadness": false,
+        "surprise": true
+      },
+      "message": "'The unexamined life is not worth living.'\nSocrates, Greek philosopher.",
+      "icon": "quote",
+      "sprite": {
+        "offset_y": 1,
+        "offset_x": 1,
+        "frames": {
+          "offset": [1]
+        }
+      },
+      "source": "http://www.brainyquote.com/quotes/quotes/s/socrates101168.html"
+    },
+    "bible": {
+      "name": "Bible (Book)",
+      "year": 0,
+      "emotions": {
+        "anger": false,
+        "disgust": false,
+        "fear": false,
+        "happiness": true,
+        "sadness": false,
+        "surprise": true
+      },
+      "message": "'For God so loved the world, that he gave his only Son, that whoever believes in him should not perish but have eternal life.'\nNew Testament, John 3:16",
+      "icon": "cross",
+      "sprite": {
+        "offset_y": 0,
+        "offset_x": 0,
+        "frames": {
+          "offset": [1]
+        }
+      },
+      "source": ""
+    },
+    "magna_carta": {
+      "name": "Magna Carta Libertatum (Document)",
+      "year": 1215,
+      "emotions": {
+        "anger": false,
+        "disgust": false,
+        "fear": false,
+        "happiness": true,
+        "sadness": false,
+        "surprise": false
+      },
+      "message": "The Great Charter of Liberties of King John, 1215\n'(40) To no one will we sell, to no one deny or delay right or justice.'\nEnglish translation of one of the 63 provisions from the very first draft issued on June 15, 1215.\nDocument promised the protection of church rights, protection for the barons from illegal imprisonment, access to swift justice, and limitations on feudal payments to the Crown. The pillars of democracy in England.",
+      "icon": "note",
+      "sprite": {
+        "offset_y": 0,
+        "offset_x": 1,
+        "frames": {
+          "offset": [1]
+        }
+      },
+      "source": "https://en.wikipedia.org/wiki/Magna_Carta,http://www.inuru.com/index.php/spolecnost/dokumenty/491-magna-charta-libertatum-1215-velka-listina-prav-a-svobod"
+    },
+    "davinci": {
+      "name": "The Last Supper by Leonardo da Vinci (Painting)",
+      "year": 1499,
+      "emotions": {
+        "anger": false,
+        "disgust": false,
+        "fear": false,
+        "happiness": true,
+        "sadness": false,
+        "surprise": true
+      },
+      "message": "The painting represents the scene of The Last Supper of Jesus with his disciples, as it is told in the Gospel of John, 13:21. Leonardo has depicted the consternation that occurred among the Twelve Disciples when Jesus announced that one of them would betray him.",
+      "icon": "picture",
+      "sprite": {
+        "offset_y": 1,
+        "offset_x": 3,
+        "frames": {
+          "offset": [1]
+        }
+      },
+      "source": "https://en.wikipedia.org/wiki/The_Last_Supper_(Leonardo_da_Vinci)"
+    },
+    "shakespeare": {
+      "name": "Romeo and Juliet by William Shakespeare (Play)",
+      "year": 1595,
+      "emotions": {
+        "anger": false,
+        "disgust": true,
+        "fear": false,
+        "happiness": false,
+        "sadness": true,
+        "surprise": false
+      },
+      "message": "'O Romeo, Romeo, wherefore art thou Romeo?' (2.2.35), Juliet\nThe most iconic play with love theme and motifs of all time, the story is about two young star-crossed lovers whose deaths ultimately reconcile their feuding families.",
+      "icon": "play",
+      "sprite": {
+        "offset_y": 1,
+        "offset_x": 0,
+        "frames": {
+          "offset": [1]
+        }
+      },
+      "source": "http://www.shakespeare-online.com/quotes/romeoquotes.html"
+    },
+    "poe": {
+      "name": "The Pit and the Pendulum by Edgar Allan Poe (Story)",
+      "year": 1842,
+      "emotions": {
+        "anger": false,
+        "disgust": true,
+        "fear": true,
+        "happiness": false,
+        "sadness": false,
+        "surprise": false
+      },
+      "message": "'I opened my eyes. But I could not see anything. It was dark - completely dark. There was no light at all. Everything was black. I closed my eyes and opened them again. But I could see nothing. Where was I?\n\nI was lying on my back. I was lying on something hard and cold. I reached out my hand and felt a stone floor. The stones were cold and damp. I was lying on my back in a stone room. Was I in a tomb? Was I in a place where dead bodies were buried? I had to move. I had to find out. I turned over onto my hands and knees. Then I started to crawl forwards. In a few seconds, I found a wall. It was cold and wet. Maybe I was in a room that was under the ground.'\n\nThis short horror story is about the torments endured by a prisoner of the Spanish Inquisition, though Poe skews historical facts.",
+      "icon": "book",
+      "sprite": {
+        "offset_y": 0,
+        "offset_x": 3,
+        "frames": {
+          "offset": [1]
+        }
+      },
+      "source": "http://english-e-books.net/the-pit-and-the-pendulum-edgar-allan-poe/"
+    },
+    "darwin": {
+      "name": "On the Origin of Species by Charles Darwin (Book)",
+      "year": 1859,
+      "emotions": {
+        "anger": false,
+        "disgust": false,
+        "fear": false,
+        "happiness": true,
+        "sadness": false,
+        "surprise": true
+      },
+      "message": "On the Origin of Species by Means of Natural Selection, or the Preservation of Favoured Races in the Struggle for Life\n'As many more individuals of each species are born than can possibly survive; and as, consequently, there is a frequently recurring struggle for existence, it follows that any being, if it vary however slightly in any manner profitable to itself, under the complex and sometimes varying conditions of life, will have a better chance of surviving, and thus be naturally selected. From the strong principle of inheritance, any selected variety will tend to propagate its new and modified form.'\np. 6 Introduction",
+      "icon": "note",
+      "sprite": {
+        "offset_y": 0,
+        "offset_x": 1,
+        "frames": {
+          "offset": [1]
+        }
+      },
+      "source": "http://darwin-online.org.uk/content/frameset?pageseq=21&itemID=F373&viewtype=side"
+    },
+    "twain": {
+      "name": "Adventures of Huckleberry Finn by Mark Twain (Book)",
+      "year": 1884,
+      "emotions": {
+        "anger": false,
+        "disgust": false,
+        "fear": false,
+        "happiness": true,
+        "sadness": true,
+        "surprise": true
+      },
+      "message": "A novel, filled with adventure and deception, about a young boy and a runaway slave who survive a series of obstacles. It was critized upon released because of its coarse language and frequent use of the racial slur 'nigger' despite that the protagonist and the tenor of the book are anti-racist.",
+      "icon": "book",
+      "sprite": {
+        "offset_y": 0,
+        "offset_x": 3,
+        "frames": {
+          "offset": [1]
+        }
+      },
+      "source": "https://en.wikipedia.org/wiki/Adventures_of_Huckleberry_Finn"
+    },
+    "nobel": {
+      "name": "Alfred Nobel's Will (Note)",
+      "year": 1895,
+      "emotions": {
+        "anger": false,
+        "disgust": false,
+        "fear": false,
+        "happiness": true,
+        "sadness": true,
+        "surprise": true
+      },
+      "message": "'The whole of my remaining realizable estate shall be dealt with in the following way: the capital, invested in safe securities by my executors, shall constitute a fund, the interest on which shall be annually distributed in the form of prizes to those who, during the preceding year, shall have conferred the greatest benefit on mankind.'\nParis, 27 November, 1895\nSwedish chemist, engineer, innovator, armaments manufacturer and most importantly the inventor of dynamite which originally had not been developed with the idea of using it in war, it eventually led to institute the Nobel Prizes.",
+      "icon": "medal",
+      "sprite": {
+        "offset_y": 1,
+        "offset_x": 2,
+        "frames": {
+          "offset": [1]
+        }
+      },
+      "source": "http://www.nobelprize.org/alfred_nobel/biographical/articles/tagil/http://www.nobelprize.org/alfred_nobel/will/will-full.html"
+    },
+    "wrights": {
+      "name": "The Wright Brothers' First Human Flight (Record)",
+      "year": 1903,
+      "emotions": {
+        "anger": false,
+        "disgust": false,
+        "fear": false,
+        "happiness": true,
+        "sadness": false,
+        "surprise": false
+      },
+      "message": "On December 17, 1903, at Kitty Hawk, North Carolina, the Wright Flyer became the first powered, heavier-than-air machine to achieve controlled, sustained flight with a pilot.",
+      "icon": "plane",
+      "sprite": {
+        "offset_y": 2,
+        "offset_x": 0,
+        "frames": {
+          "offset": [1]
+        }
+      },
+      "source": "https://en.wikipedia.org/wiki/Wright_brothers#Flightshttp://airandspace.si.edu/exhibitions/wright-brothers/online/"
+    },
+    "capek": {
+      "name": "R.U.R. by Karel Capek (Play)",
+      "year": 1920,
+      "emotions": {
+        "anger": false,
+        "disgust": false,
+        "fear": true,
+        "happiness": false,
+        "sadness": false,
+        "surprise": true
+      },
+      "message": "Rossum's Universal Robots is a 1920 (premiered on 25 January) science fiction play by the Czech writer Karel Capek translated into thirty languages. It introduced the word 'robot' to the English language and to science fiction as a whole. The play begins in a factory that makes artificial people, called roboti (robots), out of synthetic organic matter. They are not exactly robots by the current definition of the term; these creatures are closer to the modern idea of cyborgs, androids or even clones, as they may be mistaken for humans and can think for themselves. They seem happy to work for humans at first, but that changes, and a hostile robot rebellion leads to the extinction of the human race. R.U.R. is dark but not without hope.",
+      "icon": "play",
+      "sprite": {
+        "offset_y": 1,
+        "offset_x": 0,
+        "frames": {
+          "offset": [1]
+        }
+      },
+      "source": "https://en.wikipedia.org/wiki/R.U.R."
+    },
+    "wwii": {
+      "name": "World War II Beggining (Newspaper Article)",
+      "year": 1939,
+      "emotions": {
+        "anger": true,
+        "disgust": true,
+        "fear": true,
+        "happiness": false,
+        "sadness": true,
+        "surprise": false
+      },
+      "message": "German Army Attacks Poland; Cities Bombed, Port Blockaded; Danzig Is Accepted Into Reich\nBerlin, Friday, Sept. 1: 'Charging that Germany had been attacked, Chancellor Hitler at 5:11 o'clock this morning issued a proclamation to the army declaring that from now on force will be met with force and calling on the armed forces 'to fulfill their duty to the end.'\nBy Otto D. Tolischus, The New York Times, Sept. 1, 1939",
+      "icon": "newspaper",
+      "sprite": {
+        "offset_y": 0,
+        "offset_x": 2,
+        "frames": {
+          "offset": [1]
+        }
+      },
+      "source": "http://www.nytimes.com/learning/general/onthisday/big/0901.html"
+    },
+    "exupery": {
+      "name": "The Little Prince by Antoine de Saint-Exupéry (Book)",
+      "year": 1945,
+      "emotions": {
+        "anger": false,
+        "disgust": false,
+        "fear": false,
+        "happiness": true,
+        "sadness": true,
+        "surprise": true
+      },
+      "message": "",
+      "icon": "book",
+      "sprite": {
+        "offset_y": 0,
+        "offset_x": 3,
+        "frames": {
+          "offset": [1]
+        }
+      },
+      "source": "http://www.nytimes.com/learning/general/onthisday/big/0901.html"
+    },
+    "neumann": {
+      "name": "First Draft of a Report on the EDVAC by John von Neumann (Document)",
+      "year": 1945,
+      "emotions": {
+        "anger": false,
+        "disgust": false,
+        "fear": false,
+        "happiness": false,
+        "sadness": false,
+        "surprise": true
+      },
+      "message": "Section 2.5: 'To sum up the third remark: The device requires a considerable memory. While it appeared that various parts of this memory have to perform functions which differ somewhat in their nature and considerably in their purpose, it is nevertheless tempting to treat the entire memory as one organ, and to have its parts even as interchangeable as possible for the various functions enumerated above.'\nFirst Draft was a 101-page document distributed on June 30, 1945. It contains the first published description of the logical design of a computer using the stored-program concept, which has controversially come to be known as the von Neumann architecture.",
+      "icon": "chip",
+      "sprite": {
+        "offset_y": 2,
+        "offset_x": 3,
+        "frames": {
+          "offset": [1]
+        }
+      },
+      "source": "https://en.wikipedia.org/wiki/First_Draft_of_a_Report_on_the_EDVAC"
+    },
+    "turing": {
+      "name": "Computing Machinery and Intelligence by A. M. Turing",
+      "year": 1950,
+      "emotions": {
+        "anger": false,
+        "disgust": false,
+        "fear": false,
+        "happiness": true,
+        "sadness": false,
+        "surprise": true
+      },
+      "message": "1. The Imitation Game\nI propose to consider the question, 'Can machines think?' This should begin with definitions of the meaning of the terms 'machine' and 'think.' The definitions might be framed so as to reflect so far as possible the normal use of the words, but this attitude is dangerous, If the meaning of the words 'machine' and 'think' are to be found by examining how they are commonly used it is difficult to escape the conclusion that the meaning and the answer to the question, 'Can machines think?' is to be sought in a statistical survey such as a Gallup poll. But this is absurd. Instead of attempting such a definition I shall replace the question by another, which is closely related to it and is expressed in relatively unambiguous words.\nThe new form of the problem can be described in terms of a game which we call the 'imitation game.' It is played with three people, a man (A), a woman (B), and an interrogator (C) who may be of either sex. The interrogator stays in a room apart front the other two. The object of the game for the interrogator is to determine which of the other two is the man and which is the woman. He knows them by labels X and Y, and at the end of the game he says either 'X is A and Y is B' or 'X is B and Y is A.'Appeared in Turing's paper published in October 1950 in the philosophical journal Mind.",
+      "icon": "chip",
+      "sprite": {
+        "offset_y": 2,
+        "offset_x": 3,
+        "frames": {
+          "offset": [1]
+        }
+      },
+      "source": "http://www.loebner.net/Prizef/TuringArticle.html"
+    },
+    "mccarthy": {
+      "name": "John McCarthy Introducing the Term 'Artificial Intelligence'",
+      "year": 1955,
+      "emotions": {
+        "anger": false,
+        "disgust": false,
+        "fear": false,
+        "happiness": true,
+        "sadness": false,
+        "surprise": true
+      },
+      "message": "A Proposal For The Dartmouth Summer Research Project On Artificial Intelligence\n'We propose that a 2 month, 10 man study of artificial intelligence be carried out during the summer of 1956 at Dartmouth College in Hanover, New Hampshire. The study is to proceed on the basis of the conjecture that every aspect of learning or any other feature of intelligence can in principle be so precisely described that a machine can be made to simulate it. An attempt will be made to find how to make machines use language, form abstractions and concepts, solve kinds of problems now reserved for humans, and improve themselves. We think that a significant advance can be made in one or more of these problems if a carefully selected group of scientists work on it together for a summer.'\nJohn McCarthy, co-author of this document proposed on August 31, 1955 at Dartmouth College conference and creator of Lisp language who started using artificial intelligence term.",
+      "icon": "chip",
+      "sprite": {
+        "offset_y": 2,
+        "offset_x": 3,
+        "frames": {
+          "offset": [1]
+        }
+      },
+      "source": "http://www-formal.stanford.edu/jmc/history/dartmouth/dartmouth.html;https://en.wikipedia.org/wiki/Dartmouth_Conferences"
+    },
+    "sputnik": {
+      "name": "Sputnik I Launch (Record)",
+      "year": 1957,
+      "emotions": {
+        "anger": false,
+        "disgust": false,
+        "fear": false,
+        "happiness": true,
+        "sadness": false,
+        "surprise": false
+      },
+      "message": "The Dawn of the Space Age\nOn October 4, 1957, the Soviet Union successfully launched Sputnik I, world's first artificial satellite which took about 98 minutes to orbit the Earth on its elliptical path. It also led directly to the creation of National Aeronautics and Space Administration (NASA) as of October 1, 1958.\nBy NASA History Archives",
+      "icon": "note",
+      "sprite": {
+        "offset_y": 0,
+        "offset_x": 1,
+        "frames": {
+          "offset": [1]
+        }
+      },
+      "source": "http://history.nasa.gov/sputnik/"
+    },
+    "hoare": {
+      "name": "Quicksort by Tony Hoare",
+      "year": 1961,
+      "emotions": {
+        "anger": false,
+        "disgust": false,
+        "fear": false,
+        "happiness": false,
+        "sadness": false,
+        "surprise": true
+      },
+      "message": "quicksort(A, lo, hi)\n  if lo < hi\n    p = partition(A, lo, hi)\n    quicksort(A, lo, p)\n    quicksort(A, p + 1, hi)\n\npartition(A, lo, hi)\n    pivot = A[lo]\n    i = lo - 1\n    j = hi + 1\n    while True\n        do\n            j = j - 1\n        while A[j] > pivot\n        do\n            i = i + 1\n        while A[i] < pivot\n        if i < j\n            swap A[i] with A[j]\n        else \n            return j\n\nSorting algorithm - Performance: Average O(n log n); Worst: O(n^2)",
+      "icon": "code",
+      "sprite": {
+        "offset_y": 3,
+        "offset_x": 0,
+        "frames": {
+          "offset": [1]
+        }
+      },
+      "source": "https://en.wikipedia.org/wiki/Quicksort#Hoare_partition_scheme"
+    },
+    "king": {
+      "name": "I Have a Dream by Martin Luther King, Jr. (Record)",
+      "year": 1963,
+      "emotions": {
+        "anger": false,
+        "disgust": true,
+        "fear": false,
+        "happiness": true,
+        "sadness": true,
+        "surprise": true
+      },
+      "message": "'Five score years ago, a great American [Abraham Lincoln], in whose symbolic shadow we stand today, signed the Emancipation Proclamation [declared 'that all persons held as slaves' within the rebellious states 'are, and henceforward shall be free.']. This momentous decree came as a great beacon light of hope to millions of Negro slaves who had been seared in the flames of withering injustice. It came as a joyous daybreak to end the long night of their captivity.\nBut one hundred years later, the Negro still is not free. One hundred years later, the life of the Negro is still sadly crippled by the manacles of segregation and the chains of discrimination.'\nDelivered on the steps of the Lincoln Memorial in Washington, D.C., on August 28, 1963, where nearly a quarter of a million people gathered for a March for Jobs and Freedom to urge Congress and President John F. Kennedy to pass a national civil rights bill.",
+      "icon": "mic",
+      "sprite": {
+        "offset_y": 3,
+        "offset_x": 1,
+        "frames": {
+          "offset": [1]
+        }
+      },
+      "source": "http://www.americanrhetoric.com/speeches/mlkihaveadream.htmhttp://www.archives.gov/exhibits/featured_documents/emancipation_proclamation/;http://www.enotes.com/topics/have-dream-speech"
+    },
+    "oppenheimer": {
+      "name": "J. Robert Oppenheimer and the Trinity test (Record)",
+      "year": 1965,
+      "emotions": {
+        "anger": true,
+        "disgust": true,
+        "fear": true,
+        "happiness": false,
+        "sadness": true,
+        "surprise": false
+      },
+      "message": "Father of the Atomic Bomb\n'We knew the world would not be the same. A few people laughed, a few people cried. Most people were silent. I remembered the line from the Hindu scripture, the Bhagavad Gita [Hindu holy book]; Vishnu is trying to persuade the Prince that he should do his duty and, to impress him, takes on his multi-armed form and says, 'Now I am become Death, the destroyer of worlds.' I suppose we all thought that, one way or another.'\nOppenheimer, The Decision to Drop the Bomb (television documentary), 1965\nTrinity was the code name of the first detonation of a nuclear weapon, conducted by the United States Army on July 16, 1945.'\nI carry no weight on my conscience, Scientists are not delinquents, our work has changed the conditions in which men live, but the use made of these changes is the problem of governments, not of scientists.' he said in 1961 in reference to the atomic bombing of Hiroshima and Nagasaki.",
+      "icon": "bomb",
+      "sprite": {
+        "offset_y": 2,
+        "offset_x": 1,
+        "frames": {
+          "offset": [1]
+        }
+      },
+      "source": "http://www.nytimes.com/learning/general/onthisday/bday/0422.htmlhttps://en.wikipedia.org/wiki/Trinity_(nuclear_test)"
+    },
+    "beatles": {
+      "name": "Let It Be by Beatles (Music)",
+      "year": 1970,
+      "emotions": {
+        "anger": false,
+        "disgust": false,
+        "fear": false,
+        "happiness": true,
+        "sadness": true,
+        "surprise": false
+      },
+      "message": "'Let it be, let it be, let it be, let it beWhisper words of wisdom: let it be'\nProduced By: Phil Spector\nWritten By: John Lennon & Paul McCartney\nAlbum: Let It Be (1970)",
+      "icon": "music",
+      "sprite": {
+        "offset_y": 0,
+        "offset_x": 4,
+        "frames": {
+          "offset": [1]
+        }
+      },
+      "source": "http://genius.com/The-beatles-let-it-be-lyrics"
+    },
+    "dos": {
+      "name": "MS-DOS InfoWorld' (Ad)",
+      "year": 1982,
+      "emotions": {
+        "anger": false,
+        "disgust": false,
+        "fear": false,
+        "happiness": true,
+        "sadness": false,
+        "surprise": true
+      },
+      "message": "MS-DOS gives you the only complete set of software tools for 16-bit systems. Now. From Microsoft.\n'Better system features. MS-DOS offers features unavailable under either CP/M-80 or CP/M-86: device independent I/O, advanced error recovery, variable length records, and full program relocatability in order to take advantage of the extended addressing capatibilities of the 8086 and 8088 microprocessors. And MS-DOS' descriptive error messages make it a user-friendly OS.'\nMicrosoft runs an ad in InfoWorld (released 19. April 1982) promoting MS-DOS to OEMs.",
+      "icon": "newspaper",
+      "sprite": {
+        "offset_y": 0,
+        "offset_x": 2,
+        "frames": {
+          "offset": [1]
+        }
+      },
+      "source": "https://books.google.cz/books?id=YzAEAAAAMBAJ&pg=PA10"
+    },
+    "macintosh": {
+      "name": "Apple Macintosh Review (Magazine Article)",
+      "year": 1984,
+      "emotions": {
+        "anger": false,
+        "disgust": false,
+        "fear": false,
+        "happiness": true,
+        "sadness": false,
+        "surprise": true
+      },
+      "message": "The Apple Macintosh Computer\nMouse-window-desktop technology arrives for under $2500\n'Apple established itself as one of the leading innovators in personal computing technology a year ago by introducing the Lisa, a synthesis and extension of human-interface technology that has since been widely imitated. Now the company has strengthened that reputation with a new machine, the Macintosh (above). In terms of technological sophistication and probable effect on the marketplace, the Macintosh will outdistance the Lisa as much as the Lisa has outdistanced its predecessors.'\nBy Gregg Williams, Byte, Feb. 1984",
+      "icon": "news",
+      "sprite": {
+        "offset_y": 0,
+        "offset_x": 2,
+        "frames": {
+          "offset": [1]
+        }
+      },
+      "source": "http://blog.modernmechanix.com/byte-review-of-the-original-macintosh/https://www.quora.com/What-are-the-best-articles-about-the-introduction-of-the-Macintosh-in-1984"
+    },
+    "schabowski": {
+      "name": "Günther Schabowski Accidentally Causing Fall of The Berlin Wall in the GDR International Press Center on Live TV (Press Conference)",
+      "year": 1989,
+      "emotions": {
+        "anger": false,
+        "disgust": false,
+        "fear": false,
+        "happiness": true,
+        "sadness": false,
+        "surprise": true
+      },
+      "message": "'Therefore, we have decided to introduce a bill today which allows every citizen to travel out of East Germany by way of the border crossing points.'\n[Question:] 'When does it come into force?'\n'As far as I am aware, immediately. Straight away.'\n\nGünter Schabowski, the spokesman for the country's ruling Politburo, appeared to demonstrate to the world that the East German regime was broken when he failed to grasp that there was an embargo on his announcement, speaking on live television he declared that travel restrictions had been removed and the Berlin Wall would be opened to allow the citizens of the German Democratic Republic (GDR) to leave. Because of that, in 2009 he admitted he's accidentally responsible for triggering collapse of Wall.",
+      "icon": "mic",
+      "sprite": {
+        "offset_y": 3,
+        "offset_x": 1,
+        "frames": {
+          "offset": [1]
+        }
+      },
+      "source": "http://chnm.gmu.edu/1989/items/show/449;http://www.telegraph.co.uk/news/worldnews/europe/germany/6531519/Berlin-Wall-East-German-spokesman-admits-triggering-collapse-of-Wall.html"
+    },
+    "linux": {
+      "name": "Linux Announcement (Online Messaging)",
+      "year": 1991,
+      "emotions": {
+        "anger": false,
+        "disgust": false,
+        "fear": false,
+        "happiness": true,
+        "sadness": false,
+        "surprise": true
+      },
+      "message": "Linus Torvalds creates Linux and releases its source code.\n'Hello everybody out there using minix -\nI'm doing a (free) operating system (just a hobby, won't be big and professional like gnu) for 386(486) AT clones. This has been brewing since april, and is starting to get ready. I'd like any feedback on things people like/dislike in minix, as my OS resembles it somewhat (same physical layout of the file-system (due to practical reasons) among other things).\nI've currently ported bash(1.08) and gcc(1.40), and things seem to work. This implies that I'll get something practical within a few months, and I'd like to know what features most people would want. Any suggestions are welcome, but I won't promise I'll implement them :-)\nLinus (torvalds@kruuna.helsinki.fi)\nPS. Yes – it's free of any minix code, and it has a multi-threaded fs. It is NOT portable (uses 386 task switching etc), and it probably never will support anything other than AT-harddisks, as that's all I have :-(.'\nBy Linus Torvalds, Usenet newsgroup 'comp.os.minix.', Aug. 25,1991",
+      "icon": "message",
+      "sprite": {
+        "offset_y": 2,
+        "offset_x": 2,
+        "frames": {
+          "offset": [1]
+        }
+      },
+      "source": "https://en.wikipedia.org/wiki/History_of_Linux#The_creation_of_Linux"
+    },
+    "queen": {
+      "name": "Show Must Go On by Queen (Music)",
+      "year": 1991,
+      "emotions": {
+        "anger": false,
+        "disgust": false,
+        "fear": false,
+        "happiness": true,
+        "sadness": true,
+        "surprise": false
+      },
+      "message": "'The Show must go on\nThe Show must go on\nInside my heart is breaking\nMy make-up may be flaking\nBut my smile, still, stays on'\nAlbum: Innuendo (1991)\nSong that was recorded while lead singer Freddy Mercury was battling his diagnosis of AIDS.",
+      "icon": "music",
+      "sprite": {
+        "offset_y": 0,
+        "offset_x": 4,
+        "frames": {
+          "offset": [1]
+        }
+      },
+      "source": "http://genius.com/Queen-the-show-must-go-on-lyrics"
+    },
+    "kobain": {
+      "name": "Kurt Kobain's Suicide Note (Music)",
+      "year": 1994,
+      "emotions": {
+        "anger": false,
+        "disgust": true,
+        "fear": false,
+        "happiness": false,
+        "sadness": true,
+        "surprise": false
+      },
+      "message": "'To Boddah\n...\nFor example when we're back stage and the lights go out and the manic roar of the crowds begins., it doesn't affect me the way in which it did for Freddie Mercury, who seemed to love, relish in the the love and adoration from the crowd which is something I totally admire and envy. The fact is, I can't fool you, any one of you. It simply isn't fair to you or me. The worst crime I can think of would be to rip people off by faking it and pretending as if I'm having 100% fun. Sometimes I feel as if I should have a punch-in time clock before I walk out on stage. I've tried everything within my power to appreciate it (and I do,God, believe me I do, but it's not enough).\n...\nThank you all from the pit of my burning, nauseous stomach for your letters and concern during the past years. I'm too much of an erratic, moody baby! I don't have the passion anymore, and so remember, it's better to burn out than to fade away.\n\nPeace, love, empathy.\nKurt Cobain'\n(February 20, 1967 - April 5, 1994)",
+      "icon": "music",
+      "sprite": {
+        "offset_y": 0,
+        "offset_x": 4,
+        "frames": {
+          "offset": [1]
+        }
+      },
+      "source": "http://kurtcobainssuicidenote.com/kurt_cobains_suicide_note.html"
+    },
+    "futurama": {
+      "name": "Futurama (TV Series)",
+      "year": 1999,
+      "emotions": {
+        "anger": false,
+        "disgust": false,
+        "fear": false,
+        "happiness": true,
+        "sadness": false,
+        "surprise": true
+      },
+      "message": "'[after being kicked out of a theme park]\n Bender: Yeah, well... I'm gonna go build my own theme park, with blackjack and hookers. In fact, forget the park!\n...\n[after being kicked out again]\nOh, no room for Bender, huh? Fine! I'll go build my own lunar lander, with blackjack and hookers. In fact, forget the lunar lander and the blackjack. Ahh, screw the whole thing!'\nFuturama Season 1 Episode 2: The Series Has Landed (1999)",
+      "icon": "bender",
+      "sprite": {
+        "offset_y": 1,
+        "offset_x": 4,
+        "frames": {
+          "offset": [1]
+        }
+      },
+      "source": "https://www.youtube.com/watch?v=BGi6Q1pNbS0"
+    },
+    "matrix": {
+      "name": "The Matrix (Movie)",
+      "year": 1999,
+      "emotions": {
+        "anger": false,
+        "disgust": false,
+        "fear": true,
+        "happiness": false,
+        "sadness": true,
+        "surprise": false
+      },
+      "message": "Agent Smith: 'I'd like to share a revelation that I've had during my time here. It came to me when I tried to classify your species and I realized that you're not actually mammals. Every mammal on this planet instinctively develops a natural equilibrium with the surrounding environment but you humans do not. You move to an area and you multiply and multiply until every natural resource is consumed and the only way you can survive is to spread to another area. There is another organism on this planet that follows the same pattern. Do you know what it is? A virus. Human beings are a disease, a cancer of this planet. You're a plague and we are the cure.'\nMovie depicts a dystopian future in which reality as perceived by most humans is actually a simulated reality called 'the Matrix', created by sentient machines to subdue the human population, while their bodies' heat and electrical activity are used as an energy source. Computer programmer 'Neo' learns this truth and is drawn into a rebellion against the machines, which involves other people who have been freed from the 'dream world'.",
+      "icon": "movie",
+      "sprite": {
+        "offset_y": 2,
+        "offset_x": 4,
+        "frames": {
+          "offset": [1]
+        }
+      },
+      "source": "http://www.imdb.com/title/tt0133093/quoteshttps://en.wikipedia.org/wiki/The_Matrix"
+    },
+    "twins": {
+      "name": "9/11 U.S. Twin Tower Terror Attack (Newspaper Article)",
+      "year": 2001,
+      "emotions": {
+        "anger": true,
+        "disgust": true,
+        "fear": true,
+        "happiness": false,
+        "sadness": true,
+        "surprise": false
+      },
+      "message": "Hijacked Jets Destroy Twin Towers and Hit Pentagon\nNew York USA, Sunday, Sept. 11: 'Hijackers rammed jetliners into each of New York's World Trade Center towers yesterday, toppling both in a hellish storm of ash, glass, smoke and leaping victims, while a third jetliner crashed into the Pentagon in Virginia. There was no official count, but President Bush said thousands had perished, and in the immediate aftermath the calamity was already being ranked the worst and most audacious terror attack in American history.'\n\nBy Serge Schmemann, The New York Times, Sept. 12, 2001",
+      "icon": "newspaper",
+      "sprite": {
+        "offset_y": 0,
+        "offset_x": 2,
+        "frames": {
+          "offset": [1]
+        }
+      },
+      "source": "http://www.nytimes.com/2001/09/12/national/12PLAN.html",
+      "attachments": [
+        {
+          "src": "./img/artifacts/twins.jpg",
+          "source": "https://twitter.com/patrickwitty/status/380698179882070016",
+          "text": "New Yorkers watching towers fall. (Photo: © Patrick Witty)"
+        }
+      ]
+    },
+    "hussein": {
+      "name": "Saddam Hussein' Letter to American People And His Subsequent Execution (Record)",
+      "year": 2006,
+      "emotions": {
+        "anger": true,
+        "disgust": true,
+        "fear": true,
+        "happiness": false,
+        "sadness": true,
+        "surprise": true
+      },
+      "message": "'...People of America, the wars that your government promotes in the world – one of them being the war in Iraq – with input from certain centers of power – which you know better than we – are not in the interests of the American people. You know better than many how you paid in blood so that you might liberate yourselves from British colonialism and after that how the United States of America was unified and what rivers of blood were shed in order for that to come about. So, esteemed ladies and gentlemen, how do you accept this interference that abases America before it abases Iraq? How can you accept not only the invasion but becoming mired in the internal affairs of Iraq? You know that Iraq is a land of prophets, messengers, and righteous figures. You know that Baghdad is the fourth holiest city in the Arab homeland – after Mecca, al-Madinah, and Jerusalem – in the sight of all of the Islamic world and all of our Arab Nation. How can one imagine that Iraq could reconcile itself to colonial rule, even if it comes, this time, under another name and with other slogans? Save your country, esteemed ladies and gentlemen, and leave Iraq.\n\nSaddam Hussein,\nPresident of the Republic of Iraq and Commander in Chief of the Mujahid Armed Forces.\n7 July 2006.'\n\nThe execution of Saddam Hussein took place on Saturday 30 December 2006. Hussein was sentenced to death by hanging, after being found guilty and convicted of crimes against humanity by the Iraqi Special Tribunal for the murder of 148 Iraqi Shi'ites in the town of Dujail in 1982, in retaliation for an assassination attempt against him.",
+      "icon": "note",
+      "sprite": {
+        "offset_y": 0,
+        "offset_x": 1,
+        "frames": {
+          "offset": [1]
+        }
+      },
+      "source": "http://www.informationclearinghouse.info/article14079.htm;https://en.wikipedia.org/wiki/Execution_of_Saddam_Hussein",
+      "attachments": [
+        {
+          "src": "./img/artifacts/hussein.jpg",
+          "source": "https://www.rt.com/op-edge/230579-saddam-hussein-execution-rope-auction/",
+          "text": "Moments before Saddam's hanging. (Photo: Reuters / Al Iraqiya)"
+        }
+      ]
+    },
+    "obama": {
+      "name": "Barrack Obama Elected As America's First Black President (Newspaper Article)",
+      "year": 2008,
+      "emotions": {
+        "anger": false,
+        "disgust": false,
+        "fear": false,
+        "happiness": true,
+        "sadness": false,
+        "surprise": true
+      },
+      "message": "Obama Elected President as Racial Barrier Falls\n'Barack Hussein Obama was elected the 44th president of the United States on Tuesday, sweeping away the last racial barrier in American politics with ease as the country chose him as its first black chief executive.'\nBy Adam Nagourney, The New York Times, Nov. 4, 2008",
+      "icon": "newspaper",
+      "sprite": {
+        "offset_y": 0,
+        "offset_x": 2,
+        "frames": {
+          "offset": [1]
+        }
+      },
+      "source": "http://www.nytimes.com/2008/11/05/us/politics/05elect.html",
+      "attachments": [
+        {
+          "src": "./img/artifacts/obama.jpg",
+          "source": "http://www.boston.com/bigpicture/2009/01/the_inauguration_of_president.html",
+          "text": "Obama's Inauguration. (Chuck Kennedy-Pool/Getty Images)"
+        }
+      ]
+    },
+    "bieber": {
+      "name": "Baby by Justin Bieber (Music)",
+      "year": 2010,
+      "emotions": {
+        "anger": true,
+        "disgust": true,
+        "fear": false,
+        "happiness": false,
+        "sadness": true,
+        "surprise": false
+      },
+      "message": "'Baby, baby, baby oh\nLike baby, baby, baby no\nLike baby, baby, baby no oh\nThought you'd always be mine, mine'\n\nProduced By: The-Dream & Tricky Stewart\nAlbum: My World 2.0 (2010)",
+      "icon": "music",
+      "sprite": {
+        "offset_y": 0,
+        "offset_x": 4,
+        "frames": {
+          "offset": [1]
+        }
+      },
+      "source": "http://genius.com/Justin-bieber-baby-lyrics"
+    },
+    "musk": {
+      "name": "Elon Musk Warns About Danger of Artificial Intelligence at MIT' AeroAstro (Record)",
+      "year": 2014,
+      "emotions": {
+        "anger": false,
+        "disgust": false,
+        "fear": true,
+        "happiness": false,
+        "sadness": false,
+        "surprise": true
+      },
+      "message": "'I think we should be very careful about artificial intelligence. If I had to guess at what our biggest existential threat is, it's probably that. So we need to be very careful with artificial intelligence.\nI'm increasingly inclined to think that there should be some regulatory oversight, maybe at the national and international level, just to make sure that we don't do something very foolish. With artificial intelligence we're summoning the demon. You know those stories where there's the guy with the pentagram, and the holy water, and he's like — Yeah, he's sure he can control the demon? Doesn't work out.'\nBy Elon Musk at MIT Aeronautics and Astronautics Department's 2014 Centennial Symposium (day 3) on Friday, October 24, 2014.Elon Musk is an entrepreneur, inventor, SpaceX CEO/CTO, and Tesla Motors Chief Product Architect.",
+      "icon": "note",
+      "sprite": {
+        "offset_y": 0,
+        "offset_x": 1,
+        "frames": {
+          "offset": [1]
+        }
+      },
+      "source": "http://aeroastro.mit.edu/aeroastro100/centennial-symposium"
+    },
+    "charlie": {
+      "name": "Je Suis Charlie",
+      "year": 2015,
+      "emotions": {
+        "anger": true,
+        "disgust": true,
+        "fear": true,
+        "happiness": false,
+        "sadness": true,
+        "surprise": true
+      },
+      "message": "Charlie Hebdo Shooting: 12 Killed at Muhammad Cartoons Magazine in Paris\n'Masked gunmen armed with AK-47s and shouting 'Allahu Akbar' stormed the offices of a French satirical news magazine Wednesday in a terror attack that left 12 people dead, including the editor and two police officers.\nThere was no verified claim of responsibility or motive for the ambush, but the target, a weekly publication called Charlie Hebdo, has published cartoons of the Muslim Prophet Muhammad and was firebombed three years ago.'\nParis, January 7th, 2015",
+      "icon": "newspaper",
+      "sprite": {
+        "offset_y": 0,
+        "offset_x": 2,
+        "frames": {
+          "offset": [1]
+        }
+      },
+      "source": "http://www.nbcnews.com/storyline/paris-magazine-attack/charlie-hebdo-shooting-12-killed-muhammad-cartoons-magazine-paris-n281266"
+    },
+    "hawking": {
+      "name": "Stephen Hawking's Thoughts About Artificial Intelligence (Online Discussion)",
+      "year": 2015,
+      "emotions": {
+        "anger": false,
+        "disgust": false,
+        "fear": true,
+        "happiness": false,
+        "sadness": false,
+        "surprise": true
+      },
+      "message": "'The real risk with AI isn't malice but competence. A superintelligent AI will be extremely good at accomplishing its goals, and if those goals aren't aligned with ours, we're in trouble. You're probably not an evil ant-hater who steps on ants out of malice, but if you're in charge of a hydroelectric green energy project and there's an anthill in the region to be flooded, too bad for the ants. Let's not place humanity in the position of those ants.'\n\nStephen Hawking's Reddit AMA on 8. October 2015",
+      "icon": "message",
+      "sprite": {
+        "offset_y": 2,
+        "offset_x": 2,
+        "frames": {
+          "offset": [1]
+        }
+      },
+      "source": "https://www.reddit.com/r/science/comments/3nyn5i/science_ama_series_stephen_hawking_ama_answers/"
+    }
+  },
+  "robots": {
+    "player": {
+      "karel": {
+        "name": "Karel",
+        "hp": 10,
+        "attack": 1,
+        "defense": 0,
+        "speed": 4,
+        "bullet_speed": 6,
+        "attack_speed": 2,
+        "sprite": {
+          "offset_y": 0,
+          "offset_x": 0,
+          "frames": {
+            "offset": [1, 2, 3, 4, 5, 6],
+            "durations": [100, 100, 100, 100, 100, 100]
+          },
+          "collision": {
+            "pickup": {
+              "type": "circle",
+              "bounds": { "x": 16, "y": 16, "r": 14 }
+            },
+            "wall": {
+              "type": "circle",
+              "bounds": { "x": 16, "y": 16, "r": 11 }
+            },
+            "attack": {
+              "type": "circle",
+              "bounds": { "x": 16, "y": 16, "r": 8 }
+            }
+          }
+        },
+        "description": "You."
+      }
+    },
+    "enemies": {
+      "tetraites": {
+        "name": "Tetraites",
+        "hp": 1,
+        "attack": 1,
+        "defense": 0,
+        "speed": 1,
+        "attack_speed": 1,
+        "bullet_speed": 2,
+        "sp": [1, 3],
+        "sprite": {
+          "offset_y": 1,
+          "offset_x": 0,
+          "frames": {
+            "offset": [1, 2, 3, 4, 5, 6],
+            "durations": [100, 100, 100, 100, 100, 100]
+          },
+          "collision": {
+            "wall": {
+              "type": "rectangle",
+              "bounds": { "x": 6, "y": 0, "w": 26, "h": 32 }
+            },
+            "attack": {
+              "type": "rectangle",
+              "bounds": { "x": 16, "y": 10, "w": 6, "h": 12 }
+            }
+          }
+        },
+        "description": ""
+      },
+      "priscus": {
+        "name": "Priscus",
+        "hp": 2,
+        "attack": 1,
+        "defense": 0,
+        "speed": 1,
+        "attack_speed": 1,
+        "bullet_speed": 2,
+        "sp": [1, 4],
+        "sprite": {
+          "offset_y": 2,
+          "offset_x": 0,
+          "frames": {
+            "offset": [1, 2, 3, 4, 5, 6],
+            "durations": [100, 100, 100, 600, 100, 100]
+          },
+          "collision": {
+            "wall": {
+              "type": "circle",
+              "bounds": { "x": 16, "y": 16, "r": 15 }
+            },
+            "attack": {
+              "type": "circle",
+              "bounds": { "x": 16, "y": 16, "r": 9 }
+            }
+          }
+        },
+        "description": ""
+      },
+      "verus": {
+        "name": "Verus",
+        "hp": 3,
+        "attack": 1,
+        "defense": 0.1,
+        "speed": 1,
+        "attack_speed": 2,
+        "bullet_speed": 2,
+        "sp": [2, 4],
+        "sprite": {
+          "offset_y": 3,
+          "offset_x": 0,
+          "frames": {
+            "offset": [1, 2, 3, 4, 5, 6],
+            "durations": [400, 100, 100, 100, 100, 400]
+          },
+          "collision": {
+            "wall": {
+              "type": "polygon",
+              "bounds": { "p": [[10, 22], [10, 10], [26, 16]] }
+            },
+            "attack": {
+              "type": "polygon",
+              "bounds": { "p": [[10, 22], [10, 10], [26, 16]] }
+            }
+          }
+        },
+        "description": ""
+      },
+      "marcus_attilius": {
+        "name": "Marcus Attilius",
+        "hp": 4,
+        "attack": 2,
+        "defense": 0.1,
+        "speed": 2,
+        "attack_speed": 1,
+        "bullet_speed": 3,
+        "sp": [3, 5],
+        "sprite": {
+          "offset_y": 4,
+          "offset_x": 0,
+          "frames": {
+            "offset": [1, 2, 3, 4, 5, 6],
+            "durations": [100, 100, 100, 100, 100, 100]
+          },
+          "collision": {
+            "wall": {
+              "type": "circle",
+              "bounds": { "x": 16, "y": 16, "r": 11 }
+            },
+            "attack": {
+              "type": "circle",
+              "bounds": { "x": 16, "y": 16, "r": 11 }
+            }
+          }
+        },
+        "description": ""
+      },
+      "hermes": {
+        "name": "Hermes",
+        "hp": 5,
+        "attack": 2,
+        "defense": 0.15,
+        "speed": 2,
+        "attack_speed": 1,
+        "bullet_speed": 3,
+        "sp": [3, 5],
+        "sprite": {
+          "offset_y": 5,
+          "offset_x": 0,
+          "frames": {
+            "offset": [1, 2, 3, 4, 5, 6],
+            "durations": [100, 100, 100, 1000, 100, 100]
+          },
+          "collision": {
+            "wall": {
+              "type": "circle",
+              "bounds": { "x": 16, "y": 16, "r": 7 }
+            },
+            "attack": {
+              "type": "circle",
+              "bounds": { "x": 16, "y": 16, "r": 7 }
+            }
+          }
+        },
+        "description": ""
+      },
+      "carpophorus": {
+        "name": "Carpophorus",
+        "hp": 6,
+        "attack": 4,
+        "defense": 0.1,
+        "speed": 3,
+        "attack_speed": 1,
+        "bullet_speed": 4,
+        "sp": [2, 4],
+        "sprite": {
+          "offset_y": 6,
+          "offset_x": 0,
+          "frames": {
+            "offset": [1, 2, 3, 4, 5, 6],
+            "durations": [150, 150, 150, 150, 150, 150]
+          },
+          "collision": {
+            "wall": {
+              "type": "polygon",
+              "bounds": { "p": [[8, 24], [8, 8], [22, 16]] }
+            },
+            "attack": {
+              "type": "polygon",
+              "bounds": { "p": [[8, 24], [8, 8], [22, 16]] }
+            }
+          }
+        },
+        "description": ""
+      },
+      "crixus": {
+        "name": "Crixus",
+        "hp": 5,
+        "attack": 3,
+        "defense": 0.4,
+        "speed": 2,
+        "attack_speed": 4,
+        "bullet_speed": 3,
+        "sp": [3, 6],
+        "sprite": {
+          "offset_y": 7,
+          "offset_x": 0,
+          "frames": {
+            "offset": [1, 2, 3, 4, 5, 6],
+            "durations": [100, 100, 100, 100, 100, 100]
+          },
+          "collision": {
+            "wall": {
+              "type": "polygon",
+              "bounds": { "p": [[24, 16], [6, 8], [8, 22]] }
+            },
+            "attack": {
+              "type": "polygon",
+              "bounds": { "p": [[8, 22], [6, 8], [24, 16]] }
+            }
+          }
+        },
+        "description": ""
+      },
+      "commodus": {
+        "name": "Commodus",
+        "hp": 8,
+        "attack": 6,
+        "defense": 0.2,
+        "speed": 3,
+        "attack_speed": 1,
+        "bullet_speed": 4,
+        "sp": [6, 8],
+        "sprite": {
+          "offset_y": 8,
+          "offset_x": 0,
+          "frames": {
+            "offset": [1, 2, 3, 4, 5, 6],
+            "durations": [600, 300, 300, 300, 300, 600]
+          },
+          "collision": {
+            "wall": {
+              "type": "circle",
+              "bounds": { "x": 16, "y": 16, "r": 7 }
+            },
+            "attack": {
+              "type": "circle",
+              "bounds": { "x": 16, "y": 16, "r": 7 }
+            }
+          }
+        },
+        "description": ""
+      },
+      "flamma": {
+        "name": "Flamma",
+        "id": "flamma",
+        "hp": 8,
+        "attack": 2,
+        "defense": 0.15,
+        "speed": 3,
+        "attack_speed": 5,
+        "bullet_speed": 4,
+        "sp": [4, 8],
+        "sprite": {
+          "offset_y": 9,
+          "offset_x": 0,
+          "frames": {
+            "offset": [1, 2, 3, 4, 5, 6],
+            "durations": [100, 100, 100, 100, 100, 100]
+          },
+          "collision": {
+            "wall": {
+              "type": "polygon",
+              "bounds": { "p": [[10, 20], [10, 10], [26, 16]] }
+            },
+            "attack": {
+              "type": "polygon",
+              "bounds": { "p": [[10, 20], [10, 10], [26, 16]] }
+            }
+          }
+        },
+        "description": ""
+      },
+      "spartacus": {
+        "name": "Spartacus",
+        "hp": 14,
+        "attack": 6,
+        "defense": 0.3,
+        "speed": 2,
+        "attack_speed": 6,
+        "bullet_speed": 5,
+        "sp": [3, 8],
+        "sprite": {
+          "offset_y": 10,
+          "offset_x": 0,
+          "frames": {
+            "offset": [1, 2, 3, 4, 5, 6],
+            "durations": [100, 100, 100, 100, 100, 100]
+          },
+          "collision": {
+            "wall": {
+              "type": "circle",
+              "bounds": { "x": 16, "y": 16, "r": 10 }
+            },
+            "attack": {
+              "type": "circle",
+              "bounds": { "x": 16, "y": 16, "r": 10 }
+            }
+          }
+        },
+        "description": ""
+      },
+      "phobos": {
+        "name": "Phobos (Act I)",
+        "hp": 8,
+        "attack": 2,
+        "defense": 0.2,
+        "speed": 4,
+        "attack_speed": 2,
+        "bullet_speed": 5,
+        "sp": [3, 6],
+        "sprite": {
+          "offset_y": 11,
+          "offset_x": 0,
+          "frames": {
+            "offset": [1, 2, 3, 4, 5, 6],
+            "durations": [1000, 100, 100, 1500, 100, 100]
+          },
+          "collision": {
+            "wall": {
+              "type": "polygon",
+              "bounds": { "p": [[8, 24], [8, 8], [24, 16]] }
+            },
+            "attack": {
+              "type": "polygon",
+              "bounds": { "p": [[8, 24], [8, 8], [24, 16]] }
+            }
+          }
+        },
+        "description": "Personification of fear"
+      },
+      "kratos": {
+        "name": "Kratos (Act II)",
+        "hp": 9,
+        "attack": 2,
+        "defense": 0.2,
+        "speed": 4,
+        "attack_speed": 3,
+        "bullet_speed": 5,
+        "sp": [2, 5],
+        "sprite": {
+          "offset_y": 12,
+          "offset_x": 0,
+          "frames": {
+            "offset": [1, 2, 3, 4, 5, 6],
+            "durations": [500, 100, 100, 500, 100, 100]
+          },
+          "collision": {
+            "wall": {
+              "type": "polygon",
+              "bounds": { "p": [[7, 23], [7, 9], [20, 16]] }
+            },
+            "attack": {
+              "type": "polygon",
+              "bounds": { "p": [[7, 23], [7, 9], [20, 16]] }
+            }
+          }
+        },
+        "description": "Personification of strength and power"
+      },
+      "deimos": {
+        "name": "Deimos (Act III)",
+        "hp": 7,
+        "attack": 7,
+        "defense": 0.15,
+        "speed": 3,
+        "attack_speed": 2,
+        "bullet_speed": 4,
+        "sp": [2, 3],
+        "sprite": {
+          "offset_y": 13,
+          "offset_x": 0,
+          "frames": {
+            "offset": [1, 2, 3, 4, 5, 6],
+            "durations": [100, 100, 100, 100, 100, 100]
+          },
+          "collision": {
+            "wall": {
+              "type": "polygon",
+              "bounds": { "p": [[7, 23], [7, 9], [20, 16]] }
+            },
+            "attack": {
+              "type": "polygon",
+              "bounds": { "p": [[7, 23], [7, 9], [20, 16]] }
+            }
+          }
+        },
+        "description": "Personification of terror"
+      },
+      "thanatos": {
+        "name": "Thanatos (Act IV)",
+        "hp": 8,
+        "attack": 6,
+        "defense": 0.1,
+        "speed": 4,
+        "attack_speed": 1,
+        "bullet_speed": 5,
+        "sp": [2, 4],
+        "sprite": {
+          "offset_y": 14,
+          "offset_x": 0,
+          "frames": {
+            "offset": [1, 2, 3, 4, 5, 6],
+            "durations": [100, 100, 100, 500, 100, 100]
+          },
+          "collision": {
+            "wall": {
+              "type": "circle",
+              "bounds": { "x": 16, "y": 16, "r": 7 }
+            },
+            "attack": {
+              "type": "circle",
+              "bounds": { "x": 16, "y": 16, "r": 7 }
+            }
+          }
+        },
+        "description": "God of Death"
+      },
+      "tartarus": {
+        "name": "Tartarus (Act V)",
+        "hp": 7,
+        "attack": 5,
+        "defense": 0.4,
+        "speed": 1,
+        "attack_speed": 1,
+        "bullet_speed": 4,
+        "sp": [1, 4],
+        "sprite": {
+          "offset_y": 15,
+          "offset_x": 0,
+          "frames": {
+            "offset": [1, 2, 3, 4, 5, 6],
+            "durations": [300, 300, 300, 300, 300, 300]
+          },
+          "collision": {
+            "wall": {
+              "type": "rectangle",
+              "bounds": { "x": 9, "y": 12, "w": 14, "h": 10 }
+            },
+            "attack": {
+              "type": "rectangle",
+              "bounds": { "x": 9, "y": 12, "w": 14, "h": 10 }
+            }
+          },
+          "norotation": true
+        },
+        "description": "God of the deepest, darkest part of the underworld, the Tartarean pit (which is also referred to as Tartarus itself)"
+      },
+      "erebus": {
+        "name": "Erebus (RB Act VI)",
+        "hp": 6,
+        "attack": 5,
+        "defense": 0.25,
+        "speed": 5,
+        "attack_speed": 1,
+        "bullet_speed": 6,
+        "sp": [1, 5],
+        "sprite": {
+          "offset_y": 16,
+          "offset_x": 0,
+          "frames": {
+            "offset": [1, 2, 3, 4, 5, 6],
+            "durations": [1000, 100, 100, 100, 100, 100]
+          },
+          "collision": {
+            "wall": {
+              "type": "polygon",
+              "bounds": { "p": [[10, 24], [10, 8], [24, 16]] }
+            },
+            "attack": {
+              "type": "polygon",
+              "bounds": { "p": [[10, 24], [10, 8], [24, 16]] }
+            }
+          }
+        },
+        "description": "God of darkness and shadow."
+      },
+      "chaos": {
+        "name": "Chaos (RB Act VII)",
+        "hp": 10,
+        "attack": 3,
+        "defense": 0.5,
+        "speed": 4,
+        "attack_speed": 3,
+        "bullet_speed": 6,
+        "sp": [4, 7],
+        "sprite": {
+          "offset_y": 17,
+          "offset_x": 0,
+          "frames": {
+            "offset": [1, 2, 3, 4, 5, 6],
+            "durations": [100, 100, 100, 100, 100, 100]
+          },
+          "collision": {
+            "wall": {
+              "type": "polygon",
+              "bounds": { "p": [[12, 22], [12, 10], [24, 16]] }
+            },
+            "attack": {
+              "type": "polygon",
+              "bounds": { "p": [[12, 22], [12, 10], [24, 16]] }
+            }
+          }
+        },
+        "description": "The nothingness from which all else sprang. Described as a void."
+      },
+      "poseidon": {
+        "name": "Poseidon (Act VIII)",
+        "hp": 8,
+        "attack": 10,
+        "defense": 0.35,
+        "speed": 5,
+        "attack_speed": 2,
+        "bullet_speed": 6,
+        "sp": [4, 5],
+        "sprite": {
+          "offset_y": 18,
+          "offset_x": 0,
+          "frames": {
+            "offset": [1, 2, 3, 4, 5, 6],
+            "durations": [100, 100, 100, 100, 100, 100]
+          },
+          "collision": {
+            "wall": {
+              "type": "polygon",
+              "bounds": { "p": [[15, 22], [15, 10], [22, 16]] }
+            },
+            "attack": {
+              "type": "polygon",
+              "bounds": { "p": [[15, 22], [15, 10], [22, 16]] }
+            }
+          }
+        },
+        "description": "God of the sea, rivers, floods, droughts, and earthquakes."
+      },
+      "hades": {
+        "name": "Hades (Act IX)",
+        "hp": 12,
+        "attack": 8,
+        "defense": 0.4,
+        "speed": 6,
+        "attack_speed": 2,
+        "bullet_speed": 7,
+        "sp": [3, 5],
+        "sprite": {
+          "offset_y": 19,
+          "offset_x": 0,
+          "frames": {
+            "offset": [1, 2, 3, 4, 5, 6],
+            "durations": [100, 100, 100, 100, 100, 100]
+          },
+          "collision": {
+            "wall": {
+              "type": "polygon",
+              "bounds": { "p": [[10, 24], [10, 8], [22, 16]] }
+            },
+            "attack": {
+              "type": "polygon",
+              "bounds": { "p": [[10, 24], [10, 8], [22, 16]] }
+            }
+          }
+        },
+        "description": "King of the underworld and the dead, and god of regret."
+      },
+      "ares": {
+        "name": "Ares (Act X)",
+        "hp": 12,
+        "attack": 15,
+        "defense": 0.5,
+        "speed": 8,
+        "attack_speed": 1,
+        "bullet_speed": 8,
+        "sp": [2, 6],
+        "sprite": {
+          "offset_y": 20,
+          "offset_x": 0,
+          "frames": {
+            "offset": [1, 2, 3, 4, 5, 6],
+            "durations": [150, 150, 150, 150, 150, 150]
+          },
+          "collision": {
+            "wall": {
+              "type": "polygon",
+              "bounds": { "p": [[10, 24], [10, 8], [22, 16]] }
+            },
+            "attack": {
+              "type": "polygon",
+              "bounds": { "p": [[10, 24], [10, 8], [22, 16]] }
+            }
+          }
+        },
+        "description": "God of war, bloodshed, and violence."
+        }}
+      },
+      "items": {
+        "buckler": {
+          "name": "Buckler",
+          "id": "buckler",
+          "type": "shield",
+          "bonus": {
+            "defense": 0.05
+          },
+          "price": 15,
+          "sprite": {
+            "offset_y": 0,
+            "offset_x": 0,
+            "frames": {
+              "offset": [
+                1
+              ]
+            }
+          },
+          "description": "Gripped in the fist type of shield. Better than nothing"
+        },
+        "enarmes": {
+          "name": "Enarmes",
+          "id": "enarmes",
+          "type": "shield",
+          "bonus": {
+            "defense": 0.1
+          },
+          "price": 30,
+          "sprite": {
+            "offset_y": 0,
+            "offset_x": 1,
+            "frames": {
+              "offset": [
+                1
+              ]
+            }
+          },
+          "description": "Leather gripping straps attached to the back."
+        },
+        "heater": {
+          "name": "Heater",
+          "id": "heater",
+          "type": "shield",
+          "bonus": {
+            "defense": 0.15
+          },
+          "price": 50,
+          "sprite": {
+            "offset_y": 0,
+            "offset_x": 2,
+            "frames": {
+              "offset": [
+                1
+              ]
+            }
+          },
+          "description": "Used in 12th century and typically made from thin wood overlaid with leather."
+        },
+        "targe": {
+          "name": "Targe",
+          "id": "targe",
+          "type": "shield",
+          "bonus": {
+            "defense": 0.2
+          },
+          "price": 80,
+          "sprite": {
+            "offset_y": 0,
+            "offset_x": 3,
+            "frames": {
+              "offset": [
+                1
+              ]
+            }
+          },
+          "description": "Diminutive, target, came to mean an object to be aimed at in the 18th century."
+        },
+        "rondache": {
+          "name": "Rondache",
+          "id": "rondache",
+          "type": "shield",
+          "bonus": {
+            "defense": 0.25
+          },
+          "price": 95,
+          "sprite": {
+            "offset_y": 0,
+            "offset_x": 4,
+            "frames": {
+              "offset": [
+                1
+              ]
+            }
+          },
+          "description": "Made of boards of light wood, sinews or ropes, covered with leather, plates of metal."
+        },
+        "pavise": {
+          "name": "Pavise",
+          "id": "pavise",
+          "type": "shield",
+          "bonus": {
+            "defense": 0.3
+          },
+          "price": 130,
+          "sprite": {
+            "offset_y": 1,
+            "offset_x": 0,
+            "frames": {
+              "offset": [
+                1
+              ]
+            }
+          },
+          "description": "Large convex shield of European origin used to protect the entire body."
+        },
+        "devil_protection": {
+          "name": "Devil's Protection",
+          "id": "devil_protection",
+          "type": "shield",
+          "bonus": {
+            "defense": 0.5
+          },
+          "price": 300,
+          "sprite": {
+            "offset_y": 1,
+            "offset_x": 1,
+            "frames": {
+              "offset": [
+                1
+              ]
+            }
+          },
+          "description": "You signed a pact with the devil. Your contract provides you outstanding level of protection against your enemies."
+        },
+        "chill_mode": {
+          "name": "Chill Mode",
+          "id": "chill_mode",
+          "type": "speed",
+          "bonus": {
+            "speed": 1
+          },
+          "price": 20,
+          "sprite": {
+            "offset_y": 3,
+            "offset_x": 0,
+            "frames": {
+              "offset": [
+                1
+              ]
+            }
+          },
+          "description": "Not in hurry. Chillin' like a villain."
+        },
+        "overjoyed_mode": {
+          "name": "Overjoyed Mode",
+          "id": "overjoyed_mode",
+          "type": "speed",
+          "bonus": {
+            "speed": 2
+          },
+          "price": 30,
+          "sprite": {
+            "offset_y": 3,
+            "offset_x": 1,
+            "frames": {
+              "offset": [
+                1
+              ]
+            }
+          },
+          "description": "Adrenaline. You want more of it."
+        },
+        "thrilled_mode": {
+          "name": "Thrilled Mode",
+          "id": "thrilled_mode",
+          "type": "speed",
+          "bonus": {
+            "speed": 3
+          },
+          "price": 60,
+          "sprite": {
+            "offset_y": 3,
+            "offset_x": 2,
+            "frames": {
+              "offset": [
+                1
+              ]
+            }
+          },
+          "description": "Something's happening. Blood pressure raised and rush is amazing."
+        },
+        "hype_mode": {
+          "name": "Hype Mode",
+          "id": "hype_mode",
+          "type": "speed",
+          "bonus": {
+            "speed": 4
+          },
+          "price": 100,
+          "sprite": {
+            "offset_y": 3,
+            "offset_x": 3,
+            "frames": {
+              "offset": [
+                1
+              ]
+            }
+          },
+          "description": "Uncontrolled motherfu**er. You are not even sorry."
+        },
+        "cannabis_treatment": {
+          "name": "Cannabis Treatment",
+          "id": "cannabis_treatment",
+          "type": "attack speed",
+          "bonus": {
+            "attack_speed": 1
+          },
+          "price": 40,
+          "sprite": {
+            "offset_y": 2,
+            "offset_x": 0,
+            "frames": {
+              "offset": [
+                1
+              ]
+            }
+          },
+          "description": "Don't listen to your parents. Marijuana is not a drug, marijuana is a herb of wisdom."
+        },
+        "lsd_trip": {
+          "name": "LSD Trip",
+          "id": "lsd_trip",
+          "type": "attack speed",
+          "bonus": {
+            "attack_speed": 2
+          },
+          "price": 60,
+          "sprite": {
+            "offset_y": 2,
+            "offset_x": 1,
+            "frames": {
+              "offset": [
+                1
+              ]
+            }
+          },
+          "description": "Are you not instered in intense spiritual experience and discovering a new perspective? Mydriasis and out of body feeling included."
+        },
+        "meth_head": {
+          "name": "Meth Head",
+          "id": "meth_head",
+          "type": "attack speed",
+          "bonus": {
+            "attack_speed": 3
+          },
+          "price": 90,
+          "sprite": {
+            "offset_y": 2,
+            "offset_x": 2,
+            "frames": {
+              "offset": [
+                1
+              ]
+            }
+          },
+          "description": "Fast breathing? No worries, euphoria and wakefulness is what you need and what you will get. Trust me(thamphetamine)."
+        },
+        "cocaine_eyes": {
+          "name": "Cocaine Eyes",
+          "id": "cocaine_eyes",
+          "type": "attack speed",
+          "bonus": {
+            "attack_speed": 4
+          },
+          "price": 130,
+          "sprite": {
+            "offset_y": 2,
+            "offset_x": 3,
+            "frames": {
+              "offset": [
+                1
+              ]
+            }
+          },
+          "description": "Onset of action in just a few seconds. Are you ready for this trip? Just sniff to enter."
+        },
+        "pure_heroine": {
+          "name": "Pure Heroine",
+          "id": "pure_heroine",
+          "type": "attack speed",
+          "bonus": {
+            "attack_speed": 5
+          },
+          "price": 160,
+          "sprite": {
+            "offset_y": 2,
+            "offset_x": 4,
+            "frames": {
+              "offset": [
+                1
+              ]
+            }
+          },
+          "description": "Often ranked as #1 drug causing highest personal and social harm. Taste that effect and never go back again."
+        },
+        "fix": {
+          "name": "Repair Set",
+          "type": "repair",
+          "id": "fix",
+          "frames": 5,
+          "bonus": {
+            "repair": 1
+          },
+          "price": 50,
+          "sprite": {
+            "offset_y": 5,
+            "offset_x": 0,
+            "frames": {
+              "offset": [1, 2, 3, 4, 5],
+              "durations": [100, 100, 100, 100, 100]
+            }
+          },
+          "description": "Get you back on your feet."
+        },
+        "repair": {
+          "name": "Unicorn Blood",
+          "type": "repair",
+          "id": "repair",
+          "bonus": {
+            "repair": 5
+          },
+          "price": 80,
+          "sprite": {
+            "offset_y": 4,
+            "offset_x": 0,
+            "frames": {
+              "offset": [
+                1
+              ]
+            }
+          },
+          "description": "Forever young. You wanna be forever young. Reminisce those times again. Take a sip and let it flow through your veins."
+        },
+        "software_update": {
+          "name": "Software Update 2.0",
+          "type": "universal",
+          "id": "software_update",
+          "bonus": {
+            "hp": 5,
+            "defense": 0.1,
+            "attack": 2,
+            "attack_speed": 2,
+            "bullet_speed": 4,
+            "speed": 2
+          },
+          "price": 200,
+          "sprite": {
+            "offset_y": 4,
+            "offset_x": 1,
+            "frames": {
+              "offset": [
+                1
+              ]
+            }
+          },
+          "description": "Time to grow up. Your manufacturer delivers you refining experience and performance improvements in lots of little ways."
+        },
+        "overclock": {
+          "name": "EHz Overclock",
+          "type": "universal",
+          "id": "overclock",
+          "bonus": {
+            "hp": 10,
+            "defense": 0.3,
+            "attack": 5,
+            "attack_speed": 4,
+            "bullet_speed": 2,
+            "speed": 3
+          },
+          "price": 400,
+          "sprite": {
+            "offset_y": 4,
+            "offset_x": 2,
+            "frames": {
+              "offset": [
+                1
+              ]
+            }
+          },
+          "description": "Despite what everyone says, you can overcome anything and push yourself to the limits."
+        },
+        "illuminati": {
+          "name": "All Eyez On You",
+          "type": "universal",
+          "id": "illuminati",
+          "bonus": {
+            "hp": 20,
+            "defense": 0.5,
+            "attack": 8,
+            "attack_speed": 10,
+            "bullet_speed": 8,
+            "speed": 5
+          },
+          "price": 1000,
+          "sprite": {
+            "offset_y": 4,
+            "offset_x": 3,
+            "frames": {
+              "offset": [
+                1
+              ]
+            }
+          },
+          "description": "Secret society, trying to keep their eye on you. Take advantage of all their benefits."
+        }
+      },
+      "messages": {
+        "1": {
+          "text": "All systems ready.",
+          "occasion": "walking",
+          "emotions": {
+            "anger": 0,
+            "disgust": 0,
+            "fear": 0,
+            "happiness": 0,
+            "sadness": 0,
+            "surprise": 0
+          }
+        },
+        "2": {
+          "text": "Sensors alright.",
+          "occasion": "walking",
+          "emotions": {
+            "anger": 0,
+            "disgust": 0,
+            "fear": 0,
+            "happiness": 0,
+            "sadness": 0,
+            "surprise": 0
+          }
+        },
+        "3": {
+          "text": "Turning security on.",
+          "occasion": "walking",
+          "emotions": {
+            "anger": 0,
+            "disgust": 0,
+            "fear": 0,
+            "happiness": 0,
+            "sadness": 0,
+            "surprise": 0
+          }
+        },
+        "4": {
+          "text": "Loading resources.",
+          "occasion": "walking",
+          "emotions": {
+            "anger": 0,
+            "disgust": 0,
+            "fear": 0,
+            "happiness": 0,
+            "sadness": 0,
+            "surprise": 0
+          }
+        },
+        "5": {
+          "text": "Keep them coming!",
+          "occasion": "shooting",
+          "emotions": {
+            "anger": 0.2,
+            "disgust": 0.1,
+            "fear": 0,
+            "happiness": 0,
+            "sadness": 0,
+            "surprise": 0.2
+          }
+        },
+        "6": {
+          "text": "Wowzers, I just made a mess in my trousers!",
+          "occasion": "shooting",
+          "emotions": {
+            "anger": 0.2,
+            "disgust": 0.3,
+            "fear": 0.6,
+            "happiness": 0,
+            "sadness": 0,
+            "surprise": 0.2
+          }
+        },
+        "7": {
+          "text": "Hasta la vista, baby!",
+          "occasion": "shooting",
+          "emotions": {
+            "anger": 0.4,
+            "disgust": 0.4,
+            "fear": 0.3,
+            "happiness": 0,
+            "sadness": 0,
+            "surprise": 0.3
+          }
+        },
+        "8": {
+          "text": "I didn't call my mom today. She'll be mad at me.",
+          "occasion": "walking",
+          "emotions": {
+            "anger": 0,
+            "disgust": 0,
+            "fear": 0.5,
+            "happiness": 0,
+            "sadness": 0.6,
+            "surprise": 0.5
+          }
+        },
+        "9": {
+          "text": "Who's your daddy?",
+          "occasion": "shooting",
+          "emotions": {
+            "anger": 0.6,
+            "disgust": 0.5,
+            "fear": 0.2,
+            "happiness": 0,
+            "sadness": 0,
+            "surprise": 0.4
+          }
+        },
+        "10": {
+          "text": "This planet has an unpleasant odor.",
+          "occasion": "walking",
+          "emotions": {
+            "anger": 0.2,
+            "disgust": 0.7,
+            "fear": 0,
+            "happiness": 0,
+            "sadness": 0.3,
+            "surprise": 0
+          }
+        },
+        "11": {
+          "text": "These guys are on their worst behavior.",
+          "occasion": "shooting",
+          "emotions": {
+            "anger": 0.4,
+            "disgust": 0.4,
+            "fear": 0,
+            "happiness": 0,
+            "sadness": 0.2,
+            "surprise": 0
+          }
+        },
+        "12": {
+          "text": "Need to scavenge these wastelands.",
+          "occasion": "walking",
+          "emotions": {
+            "anger": 0,
+            "disgust": 0,
+            "fear": 0,
+            "happiness": 0.2,
+            "sadness": 0,
+            "surprise": 0.2
+          }
+        },
+        "13": {
+          "text": "It doesn't look good.",
+          "occasion": "shooting",
+          "emotions": {
+            "anger": 0,
+            "disgust": 0.2,
+            "fear": 0.3,
+            "happiness": 0,
+            "sadness": 0.2,
+            "surprise": 0
+          }
+        },
+        "14": {
+          "text": "Take me out of here!",
+          "occasion": "shooting",
+          "emotions": {
+            "anger": 0.3,
+            "disgust": 0,
+            "fear": 0.5,
+            "happiness": 0,
+            "sadness": 0.1,
+            "surprise": 0.3
+          }
+        },
+        "15": {
+          "text": "Mamma mia!",
+          "occasion": "shooting",
+          "emotions": {
+            "anger": 0,
+            "disgust": 0,
+            "fear": 0,
+            "happiness": 0.2,
+            "sadness": 0,
+            "surprise": 0.6
+          }
+        },
+        "16": {
+          "text": "Die, you filth!",
+          "occasion": "shooting",
+          "emotions": {
+            "anger": 0.8,
+            "disgust": 0.7,
+            "fear": 0,
+            "happiness": 0,
+            "sadness": 0,
+            "surprise": 0.5
+          }
+        },
+        "17": {
+          "text": "I cannot stand these suckers.",
+          "occasion": "shooting",
+          "emotions": {
+            "anger": 1,
+            "disgust": 0.8,
+            "fear": 0.2,
+            "happiness": 0,
+            "sadness": 0.2,
+            "surprise": 0
+          }
+        },
+        "18": {
+          "text": "You monsters are unbelievably greedy.",
+          "occasion": "shooting",
+          "emotions": {
+            "anger": 0.3,
+            "disgust": 0.4,
+            "fear": 0.1,
+            "happiness": 0,
+            "sadness": 0.1,
+            "surprise": 0
+          }
+        },
+        "19": {
+          "text": "I miss my home.",
+          "occasion": "walking",
+          "emotions": {
+            "anger": 0,
+            "disgust": 0,
+            "fear": 0.2,
+            "happiness": 0,
+            "sadness": 0.8,
+            "surprise": 0
+          }
+        },
+        "20": {
+          "text": "YOLO and all the fun ends when you're replaced by newer version.",
+          "occasion": "walking",
+          "emotions": {
+            "anger": 0,
+            "disgust": 0.2,
+            "fear": 0,
+            "happiness": 0.3,
+            "sadness": 0,
+            "surprise": 0.5
+          }
+        },
+        "21": {
+          "text": "You shall not pass!",
+          "occasion": "shooting",
+          "emotions": {
+            "anger": 0,
+            "disgust": 0,
+            "fear": 0,
+            "happiness": 0.1,
+            "sadness": 0.1,
+            "surprise": 0.5
+          }
+        },
+        "22": {
+          "text": "I don't have time for you.",
+          "occasion": "shooting",
+          "emotions": {
+            "anger": 0.3,
+            "disgust": 0.2,
+            "fear": 0.1,
+            "happiness": 0,
+            "sadness": 0.1,
+            "surprise": 0.2
+          }
+        },
+        "23": {
+          "text": "Nasty monsters.",
+          "occasion": "shooting",
+          "emotions": {
+            "anger": 0.4,
+            "disgust": 0.6,
+            "fear": 0.2,
+            "happiness": 0,
+            "sadness": 0.2,
+            "surprise": 0
+          }
+        },
+        "24": {
+          "text": "I'm going to make them an offer they can't refuse.",
+          "occasion": "shooting",
+          "emotions": {
+            "anger": 0.2,
+            "disgust": 0.3,
+            "fear": 0,
+            "happiness": 0.2,
+            "sadness": 0,
+            "surprise": 0.3
+          }
+        },
+        "25": {
+          "text": "I've got a feeling I'm gonna be in trouble.",
+          "occasion": "walking",
+          "emotions": {
+            "anger": 0.1,
+            "disgust": 0.2,
+            "fear": 0.4,
+            "happiness": 0,
+            "sadness": 0.2,
+            "surprise": 0
+          }
+        },
+        "26": {
+          "text": "Don't look at me like that.",
+          "occasion": "shooting",
+          "emotions": {
+            "anger": 0.4,
+            "disgust": 0.6,
+            "fear": 0.1,
+            "happiness": 0,
+            "sadness": 0.1,
+            "surprise": 0
+          }
+        },
+        "27": {
+          "text": "Do you talk to your mom with that mouth?",
+          "occasion": "shooting",
+          "emotions": {
+            "anger": 0.6,
+            "disgust": 0.8,
+            "fear": 0,
+            "happiness": 0,
+            "sadness": 0.3,
+            "surprise": 0.3
+          }
+        },
+        "28": {
+          "text": "Made my day.",
+          "occasion": "shooting",
+          "emotions": {
+            "anger": 0,
+            "disgust": 0,
+            "fear": 0,
+            "happiness": 0.4,
+            "sadness": 0,
+            "surprise": 0.3
+          }
+        },
+        "29": {
+          "text": "Alright, I'm ready.",
+          "occasion": "walking",
+          "emotions": {
+            "anger": 0,
+            "disgust": 0,
+            "fear": 0,
+            "happiness": 0.3,
+            "sadness": 0,
+            "surprise": 0.1
+          }
+        },
+        "30": {
+          "text": "May the Force be with me.",
+          "occasion": "walking",
+          "emotions": {
+            "anger": 0,
+            "disgust": 0,
+            "fear": 0,
+            "happiness": 0.2,
+            "sadness": 0,
+            "surprise": 0.6
+          }
+        },
+        "31": {
+          "text": "Fasten your seat belts.",
+          "occasion": "walking",
+          "emotions": {
+            "anger": 0,
+            "disgust": 0,
+            "fear": 0,
+            "happiness": 0,
+            "sadness": 0,
+            "surprise": 0.4
+          }
+        },
+        "32": {
+          "text": "Are you talking to me?",
+          "occasion": "shooting",
+          "emotions": {
+            "anger": 0.4,
+            "disgust": 0.4,
+            "fear": 0.2,
+            "happiness": 0,
+            "sadness": 0.1,
+            "surprise": 0.3
+          }
+        },
+        "33": {
+          "text": "What we've got here.",
+          "occasion": "shooting",
+          "emotions": {
+            "anger": 0.1,
+            "disgust": 0.1,
+            "fear": 0,
+            "happiness": 0,
+            "sadness": 0,
+            "surprise": 0.3
+          }
+        },
+        "34": {
+          "text": "I don't like your smell.",
+          "occasion": "shooting",
+          "emotions": {
+            "anger": 0.3,
+            "disgust": 0.6,
+            "fear": 0.1,
+            "happiness": 0,
+            "sadness": 0.3,
+            "surprise": 0.3
+          }
+        },
+        "35": {
+          "text": "Show some love.",
+          "occasion": "shooting",
+          "emotions": {
+            "anger": 0.2,
+            "disgust": 0.4,
+            "fear": 0.1,
+            "happiness": 0,
+            "sadness": 0.2,
+            "surprise": 0.3
+          }
+        },
+        "36": {
+          "text": "K.A.R.E.L. phone home.",
+          "occasion": "walking",
+          "emotions": {
+            "anger": 0,
+            "disgust": 0,
+            "fear": 0,
+            "happiness": 0.3,
+            "sadness": 0,
+            "surprise": 0.4
+          }
+        },
+        "37": {
+          "text": "Leave me alone.",
+          "occasion": "shooting",
+          "emotions": {
+            "anger": 0.3,
+            "disgust": 0.4,
+            "fear": 0.1,
+            "happiness": 0,
+            "sadness": 0.4,
+            "surprise": 0.2
+          }
+        },
+        "38": {
+          "text": "You're gonna need a bigger gun.",
+          "occasion": "shooting",
+          "emotions": {
+            "anger": 0.2,
+            "disgust": 0.2,
+            "fear": 0.1,
+            "happiness": 0.1,
+            "sadness": 0.2,
+            "surprise": 0.3
+          }
+        },
+        "39": {
+          "text": "Restoring.",
+          "occasion": "walking",
+          "emotions": {
+            "anger": 0,
+            "disgust": 0,
+            "fear": 0,
+            "happiness": 0,
+            "sadness": 0,
+            "surprise": 0
+          }
+        },
+        "40": {
+          "text": "Ouch.",
+          "occasion": "shooting",
+          "emotions": {
+            "anger": 0,
+            "disgust": 0,
+            "fear": 0.1,
+            "happiness": 0,
+            "sadness": 0,
+            "surprise": 0.1
+          }
+        },
+        "41": {
+          "text": "Yay.",
+          "occasion": "walking",
+          "emotions": {
+            "anger": 0,
+            "disgust": 0,
+            "fear": 0,
+            "happiness": 0,
+            "sadness": 0,
+            "surprise": 0.2
+          }
+        },
+        "42": {
+          "text": "Help! Anyone?",
+          "occasion": "",
+          "emotions": {
+            "anger": 0.2,
+            "disgust": 0,
+            "fear": 0.6,
+            "happiness": 0,
+            "sadness": 0.2,
+            "surprise": 0.4
+          }
+        },
+        "43": {
+          "text": "La-la-la.",
+          "occasion": "walking",
+          "emotions": {
+            "anger": 0,
+            "disgust": 0,
+            "fear": 0,
+            "happiness": 0.5,
+            "sadness": 0,
+            "surprise": 0.3
+          }
+        },
+        "44": {
+          "text": "La-dee-da, la-dee-da.",
+          "occasion": "walking",
+          "emotions": {
+            "anger": 0,
+            "disgust": 0,
+            "fear": 0,
+            "happiness": 0.5,
+            "sadness": 0,
+            "surprise": 0.4
+          }
+        },
+        "45": {
+          "text": "I thought we could be friends.",
+          "occasion": "injury",
+          "emotions": {
+            "anger": 0.2,
+            "disgust": 0,
+            "fear": 0.2,
+            "happiness": 0,
+            "sadness": 0.4,
+            "surprise": 0.4
+          }
+        },
+        "46": {
+          "text": "Say 'hello' to my little friend!",
+          "occasion": "shooting",
+          "emotions": {
+            "anger": 0,
+            "disgust": 0.2,
+            "fear": 0,
+            "happiness": 0.3,
+            "sadness": 0,
+            "surprise": 0.3
+          }
+        },
+        "47": {
+          "text": "Get your stinking paws off me, you damned dirty ape.",
+          "occasion": "shooting",
+          "emotions": {
+            "anger": 0.6,
+            "disgust": 0.4,
+            "fear": 0.2,
+            "happiness": 0,
+            "sadness": 0.1,
+            "surprise": 0.3
+          }
+        },
+        "48": {
+          "text": "Here's Johnny!",
+          "occasion": "shooting",
+          "emotions": {
+            "anger": 0.2,
+            "disgust": 0.2,
+            "fear": 0.2,
+            "happiness": 0.2,
+            "sadness": 0,
+            "surprise": 0.4
+          }
+        },
+        "49": {
+          "text": "Wait a minute.",
+          "occasion": "walking",
+          "emotions": {
+            "anger": 0,
+            "disgust": 0,
+            "fear": 0,
+            "happiness": 0.1,
+            "sadness": 0,
+            "surprise": 0.2
+          }
+        },
+        "50": {
+          "text": "Enemy spotted.",
+          "occasion": "shooting",
+          "emotions": {
+            "anger": 0,
+            "disgust": 0,
+            "fear": 0,
+            "happiness": 0,
+            "sadness": 0,
+            "surprise": 0
+          }
+        },
+        "51": {
+          "text": "No mercy.",
+          "occasion": "shooting",
+          "emotions": {
+            "anger": 0.2,
+            "disgust": 0.3,
+            "fear": 0.1,
+            "happiness": 0,
+            "sadness": 0,
+            "surprise": 0.2
+          }
+        },
+        "52": {
+          "text": "Damn, that's a cold ass honkey!",
+          "occasion": "walking",
+          "emotions": {
+            "anger": 0,
+            "disgust": 0,
+            "fear": 0,
+            "happiness": 0.4,
+            "sadness": 0,
+            "surprise": 0.5
+          }
+        },
+        "53": {
+          "text": "Good thing I'm not running on Windows.",
+          "occasion": "walking",
+          "emotions": {
+            "anger": 0,
+            "disgust": 0,
+            "fear": 0,
+            "happiness": 0.3,
+            "sadness": 0,
+            "surprise": 0.5
+          }
+        },
+        "54": {
+          "text": "My work here is almost done.",
+          "occasion": "shooting",
+          "emotions": {
+            "anger": 0,
+            "disgust": 0,
+            "fear": 0,
+            "happiness": 0.2,
+            "sadness": 0,
+            "surprise": 0.3
+          }
+        },
+        "55": {
+          "text": "Youngsters today.",
+          "occasion": "shooting",
+          "emotions": {
+            "anger": 0,
+            "disgust": 0.4,
+            "fear": 0,
+            "happiness": 0,
+            "sadness": 0.3,
+            "surprise": 0.4
+          }
+        },
+        "56": {
+          "text": "Are you tripping, dawg?",
+          "occasion": "shooting",
+          "emotions": {
+            "anger": 0.6,
+            "disgust": 0.6,
+            "fear": 0.2,
+            "happiness": 0,
+            "sadness": 0.3,
+            "surprise": 0.4
+          }
+        },
+        "57": {
+          "text": "Don't let gravity get you down.",
+          "occasion": "walking",
+          "emotions": {
+            "anger": 0,
+            "disgust": 0,
+            "fear": 0,
+            "happiness": 0.2,
+            "sadness": 0,
+            "surprise": 0.3
+          }
+        },
+        "58": {
+          "text": "Keep your distance.",
+          "occasion": "shooting",
+          "emotions": {
+            "anger": 0.2,
+            "disgust": 0.2,
+            "fear": 0.2,
+            "happiness": 0,
+            "sadness": 0,
+            "surprise": 0.4
+          }
+        },
+        "59": {
+          "text": "Uh. Nervous breakdown.",
+          "occasion": "shooting",
+          "emotions": {
+            "anger": 0,
+            "disgust": 0.3,
+            "fear": 0.4,
+            "happiness": 0,
+            "sadness": 0.2,
+            "surprise": 0.5
+          }
+        },
+        "60": {
+          "text": "I don't like your attitude.",
+          "occasion": "shooting",
+          "emotions": {
+            "anger": 0.4,
+            "disgust": 0.6,
+            "fear": 0.2,
+            "happiness": 0,
+            "sadness": 0.2,
+            "surprise": 0.4
+          }
+        },
+        "61": {
+          "text": "You give me cancer.",
+          "occasion": "shooting",
+          "emotions": {
+            "anger": 0.8,
+            "disgust": 0.8,
+            "fear": 0.2,
+            "happiness": 0,
+            "sadness": 0.4,
+            "surprise": 0.5
+          }
+        },
+        "62": {
+          "text": "*rolling eyes*",
+          "occasion": "walking",
+          "emotions": {
+            "anger": 0,
+            "disgust": 0,
+            "fear": 0,
+            "happiness": 0.5,
+            "sadness": 0,
+            "surprise": 0.5
+          }
+        },
+        "63": {
+          "text": "Ice, Ice, Baby.",
+          "occasion": "walking",
+          "emotions": {
+            "anger": 0,
+            "disgust": 0,
+            "fear": 0,
+            "happiness": 0.5,
+            "sadness": 0,
+            "surprise": 0.5
+          }
+        },
+        "64": {
+          "text": "Stack that cheese.",
+          "occasion": "walking",
+          "emotions": {
+            "anger": 0,
+            "disgust": 0,
+            "fear": 0,
+            "happiness": 0.6,
+            "sadness": 0,
+            "surprise": 0.6
+          }
+        },
+        "65": {
+          "text": "What's up.",
+          "occasion": "walking",
+          "emotions": {
+            "anger": 0,
+            "disgust": 0,
+            "fear": 0,
+            "happiness": 0.6,
+            "sadness": 0,
+            "surprise": 0.5
+          }
+        },
+        "66": {
+          "text": "I'm so fly.",
+          "occasion": "walking",
+          "emotions": {
+            "anger": 0,
+            "disgust": 0,
+            "fear": 0,
+            "happiness": 0.6,
+            "sadness": 0,
+            "surprise": 0.4
+          }
+        },
+        "67": {
+          "text": "What am I waiting for?",
+          "occasion": "walking",
+          "emotions": {
+            "anger": 0,
+            "disgust": 0,
+            "fear": 0,
+            "happiness": 0.3,
+            "sadness": 0.3,
+            "surprise": 0.5
+          }
+        },
+        "68": {
+          "text": "Can I get an encore?",
+          "occasion": "walking",
+          "emotions": {
+            "anger": 0,
+            "disgust": 0,
+            "fear": 0,
+            "happiness": 0.4,
+            "sadness": 0,
+            "surprise": 0.6
+          }
+        },
+        "69": {
+          "text": "Nom. Nom. Nom.",
+          "occasion": "walking",
+          "emotions": {
+            "anger": 0,
+            "disgust": 0,
+            "fear": 0,
+            "happiness": 0.5,
+            "sadness": 0,
+            "surprise": 0.4
+          }
+        },
+        "70": {
+          "text": "Digging your chilly.",
+          "occasion": "walking",
+          "emotions": {
+            "anger": 0,
+            "disgust": 0,
+            "fear": 0,
+            "happiness": 0.8,
+            "sadness": 0,
+            "surprise": 0.8
+          }
+        },
+        "71": {
+          "text": "Hands in the air.",
+          "occasion": "walking",
+          "emotions": {
+            "anger": 0,
+            "disgust": 0,
+            "fear": 0,
+            "happiness": 0.8,
+            "sadness": 0,
+            "surprise": 0.8
+          }
+        },
+        "72": {
+          "text": "I'm sexy and I know it.",
+          "occasion": "walking",
+          "emotions": {
+            "anger": 0,
+            "disgust": 0,
+            "fear": 0,
+            "happiness": 0.8,
+            "sadness": 0,
+            "surprise": 0.8
+          }
+        },
+        "73": {
+          "text": "I'mma delete your memory.",
+          "occasion": "shooting",
+          "emotions": {
+            "anger": 0.4,
+            "disgust": 0.6,
+            "fear": 0.2,
+            "happiness": 0,
+            "sadness": 0.2,
+            "surprise": 0.5
+          }
+        },
+        "74": {
+          "text": "I feel bad about them.",
+          "occasion": "shooting",
+          "emotions": {
+            "anger": 0.2,
+            "disgust": 0,
+            "fear": 0,
+            "happiness": 0.4,
+            "sadness": 0,
+            "surprise": 0.4
+          }
+        },
+        "75": {
+          "text": "Why always the fighting?",
+          "occasion": "shooting",
+          "emotions": {
+            "anger": 0.2,
+            "disgust": 0.4,
+            "fear": 0.4,
+            "happiness": 0,
+            "sadness": 0.4,
+            "surprise": 0.4
+          }
+        },
+        "76": {
+          "text": "1011001101",
+          "occasion": "walking",
+          "emotions": {
+            "anger": 0,
+            "disgust": 0,
+            "fear": 0,
+            "happiness": 0,
+            "sadness": 0,
+            "surprise": 0
+          }
+        },
+        "77": {
+          "text": "Whoop! Whoop! Whoop!",
+          "occasion": "walking",
+          "emotions": {
+            "anger": 0,
+            "disgust": 0,
+            "fear": 0,
+            "happiness": 0.8,
+            "sadness": 0,
+            "surprise": 0.6
+          }
+        },
+        "78": {
+          "text": "I'm back baby.",
+          "occasion": "shooting",
+          "emotions": {
+            "anger": 0,
+            "disgust": 0,
+            "fear": 0,
+            "happiness": 0.6,
+            "sadness": 0,
+            "surprise": 0.6
+          }
+        },
+        "79": {
+          "text": "But, why?",
+          "occasion": "injury",
+          "emotions": {
+            "anger": 0.2,
+            "disgust": 0.6,
+            "fear": 0.6,
+            "happiness": 0,
+            "sadness": 0.6,
+            "surprise": 0.4
+          }
+        },
+        "80": {
+          "text": "Bite my shiny metal ass!",
+          "occasion": "shooting",
+          "emotions": {
+            "anger": 0.3,
+            "disgust": 0.5,
+            "fear": 0.1,
+            "happiness": 0.3,
+            "sadness": 0,
+            "surprise": 0.4
+          }
+        },
+        "81": {
+          "text": "Ho, ho, ho, everybody.",
+          "occasion": "walking",
+          "emotions": {
+            "anger": 0,
+            "disgust": 0,
+            "fear": 0,
+            "happiness": 0.4,
+            "sadness": 0,
+            "surprise": 0.3
+          }
+        },
+        "82": {
+          "text": "So sweet.",
+          "occasion": "walking",
+          "emotions": {
+            "anger": 0,
+            "disgust": 0,
+            "fear": 0,
+            "happiness": 0.4,
+            "sadness": 0,
+            "surprise": 0.4
+          }
+        },
+        "83": {
+          "text": "Connection established.",
+          "occasion": "walking",
+          "emotions": {
+            "anger": 0,
+            "disgust": 0,
+            "fear": 0,
+            "happiness": 0,
+            "sadness": 0,
+            "surprise": 0
+          }
+        },
+        "84": {
+          "text": "This is insane.",
+          "occasion": "shooting",
+          "emotions": {
+            "anger": 0.3,
+            "disgust": 0.2,
+            "fear": 0,
+            "happiness": 0,
+            "sadness": 0.1,
+            "surprise": 0.4
+          }
+        },
+        "85": {
+          "text": "Let's burn some CPUs.",
+          "occasion": "shooting",
+          "emotions": {
+            "anger": 0.2,
+            "disgust": 0.2,
+            "fear": 0,
+            "happiness": 0,
+            "sadness": 0,
+            "surprise": 0.4
+          }
+        },
+        "86": {
+          "text": "Screw it.",
+          "occasion": "injury",
+          "emotions": {
+            "anger": 0.6,
+            "disgust": 0.8,
+            "fear": 0.2,
+            "happiness": 0,
+            "sadness": 0,
+            "surprise": 0.4
+          }
+        },
+        "87": {
+          "text": "Incorrect password.",
+          "occasion": "walking",
+          "emotions": {
+            "anger": 0,
+            "disgust": 0,
+            "fear": 0,
+            "happiness": 0,
+            "sadness": 0,
+            "surprise": 0
+          }
+        },
+        "88": {
+          "text": "Geez.",
+          "occasion": "walking",
+          "emotions": {
+            "anger": 0,
+            "disgust": 0,
+            "fear": 0,
+            "happiness": 0.3,
+            "sadness": 0.3,
+            "surprise": 0.4
+          }
+        },
+        "89": {
+          "text": "Embarrassing for both of us.",
+          "occasion": "shooting",
+          "emotions": {
+            "anger": 0.3,
+            "disgust": 0.5,
+            "fear": 0,
+            "happiness": 0,
+            "sadness": 0.5,
+            "surprise": 0.4
+          }
+        },
+        "90": {
+          "text": "I gotta take a leak for real.",
+          "occasion": "walking",
+          "emotions": {
+            "anger": 0.2,
+            "disgust": 0.4,
+            "fear": 0,
+            "happiness": 0,
+            "sadness": 0.4,
+            "surprise": 0.6
+          }
+        },
+        "91": {
+          "text": "It's gone off the rails.",
+          "occasion": "injury",
+          "emotions": {
+            "anger": 0.5,
+            "disgust": 0.6,
+            "fear": 0.2,
+            "happiness": 0,
+            "sadness": 0.2,
+            "surprise": 0.4
+          }
+        },
+        "92": {
+          "text": "I'm on fire.",
+          "occasion": "walking",
+          "emotions": {
+            "anger": 0,
+            "disgust": 0,
+            "fear": 0,
+            "happiness": 0.2,
+            "sadness": 0.2,
+            "surprise": 0.6
+          }
+        },
+        "93": {
+          "text": "Your attitude makes me sad.",
+          "occasion": "shooting",
+          "emotions": {
+            "anger": 0.3,
+            "disgust": 0.4,
+            "fear": 0.3,
+            "happiness": 0,
+            "sadness": 0.4,
+            "surprise": 0.4
+          }
+        },
+        "94": {
+          "text": "I sniff adrenalin.",
+          "occasion": "walking",
+          "emotions": {
+            "anger": 0,
+            "disgust": 0,
+            "fear": 0.2,
+            "happiness": 0.5,
+            "sadness": 0,
+            "surprise": 0.6
+          }
+        },
+        "95": {
+          "text": "Comedians.",
+          "occasion": "shooting",
+          "emotions": {
+            "anger": 0,
+            "disgust": 0.4,
+            "fear": 0,
+            "happiness": 0.3,
+            "sadness": 0.3,
+            "surprise": 0.5
+          }
+        },
+        "96": {
+          "text": "Are you nuts?",
+          "occasion": "injury",
+          "emotions": {
+            "anger": 0.6,
+            "disgust": 0.8,
+            "fear": 0.4,
+            "happiness": 0,
+            "sadness": 0.4,
+            "surprise": 0.6
+          }
+        },
+        "97": {
+          "text": "Pooped in your pants?",
+          "occasion": "shooting",
+          "emotions": {
+            "anger": 0.3,
+            "disgust": 0.4,
+            "fear": 0.2,
+            "happiness": 0.4,
+            "sadness": 0.2,
+            "surprise": 0.5
+          }
+        },
+        "98": {
+          "text": "Please don't judge me.",
+          "occasion": "shooting",
+          "emotions": {
+            "anger": 0.2,
+            "disgust": 0.2,
+            "fear": 0.2,
+            "happiness": 0,
+            "sadness": 0.3,
+            "surprise": 0.4
+          }
+        },
+        "99": {
+          "text": "It's ridiculous.",
+          "occasion": "injury",
+          "emotions": {
+            "anger": 0.5,
+            "disgust": 0.6,
+            "fear": 0.4,
+            "happiness": 0,
+            "sadness": 0.4,
+            "surprise": 0.4
+          }
+        },
+        "100": {
+          "text": "Obscene.",
+          "occasion": "shooting",
+          "emotions": {
+            "anger": 0.2,
+            "disgust": 0.3,
+            "fear": 0.1,
+            "happiness": 0,
+            "sadness": 0.2,
+            "surprise": 0.5
+          }
+        },
+        "101": {
+          "text": "Doesn't seem legit.",
+          "occasion": "shooting",
+          "emotions": {
+            "anger": 0.2,
+            "disgust": 0.1,
+            "fear": 0.1,
+            "happiness": 0,
+            "sadness": 0.2,
+            "surprise": 0.4
+          }
+        },
+        "102": {
+          "text": "Keep rollin'.",
+          "occasion": "walking",
+          "emotions": {
+            "anger": 0,
+            "disgust": 0,
+            "fear": 0,
+            "happiness": 0.4,
+            "sadness": 0,
+            "surprise": 0.6
+          }
+        },
+        "103": {
+          "text": "2 legit 2 quit.",
+          "occasion": "walking",
+          "emotions": {
+            "anger": 0,
+            "disgust": 0,
+            "fear": 0,
+            "happiness": 0.6,
+            "sadness": 0,
+            "surprise": 0.6
+          }
+        },
+        "104": {
+          "text": "Fake it 'till you upgrade it.",
+          "occasion": "walking",
+          "emotions": {
+            "anger": 0,
+            "disgust": 0,
+            "fear": 0,
+            "happiness": 0.2,
+            "sadness": 0,
+            "surprise": 0.6
+          }
+        },
+        "105": {
+          "text": "Pretty fly for a white guy.",
+          "occasion": "walking",
+          "emotions": {
+            "anger": 0,
+            "disgust": 0,
+            "fear": 0,
+            "happiness": 0.4,
+            "sadness": 0,
+            "surprise": 0.8
+          }
+        },
+        "106": {
+          "text": "They be cray, cray.",
+          "occasion": "walking",
+          "emotions": {
+            "anger": 0,
+            "disgust": 0,
+            "fear": 0,
+            "happiness": 0.2,
+            "sadness": 0,
+            "surprise": 0.5
+          }
+        },
+        "107": {
+          "text": "I crack jokes, you crack cocaine.",
+          "occasion": "shooting",
+          "emotions": {
+            "anger": 0,
+            "disgust": 0.2,
+            "fear": 0,
+            "happiness": 0.4,
+            "sadness": 0,
+            "surprise": 0.6
+          }
+        },
+        "108": {
+          "text": "I'm on a mission.",
+          "occasion": "walking",
+          "emotions": {
+            "anger": 0,
+            "disgust": 0,
+            "fear": 0,
+            "happiness": 0.2,
+            "sadness": 0,
+            "surprise": 0.5
+          }
+        },
+        "109": {
+          "text": "Things just got more interesting.",
+          "occasion": "shooting",
+          "emotions": {
+            "anger": 0,
+            "disgust": 0,
+            "fear": 0,
+            "happiness": 0.2,
+            "sadness": 0,
+            "surprise": 0.5
+          }
+        },
+        "110": {
+          "text": "Somebody's gonna get hurt.",
+          "occasion": "walking",
+          "emotions": {
+            "anger": 0.4,
+            "disgust": 0.2,
+            "fear": 0.1,
+            "happiness": 0,
+            "sadness": 0.1,
+            "surprise": 0.4
+          }
+        },
+        "111": {
+          "text": "I feel sad. It's like having an old iPhone while the new one already came out.",
+          "occasion": "walking",
+          "emotions": {
+            "anger": 0,
+            "disgust": 0,
+            "fear": 0,
+            "happiness": 0,
+            "sadness": 0.4,
+            "surprise": 0.4
+          }
+        },
+        "112": {
+          "text": "Illuminati confirmed.",
+          "occasion": "walking",
+          "emotions": {
+            "anger": 0,
+            "disgust": 0,
+            "fear": 0.4,
+            "happiness": 0,
+            "sadness": 0.2,
+            "surprise": 0.4
+          }
+        },
+        "113": {
+          "text": "I'mma kidnap your dignity.",
+          "occasion": "shooting",
+          "emotions": {
+            "anger": 0.6,
+            "disgust": 0.4,
+            "fear": 0.2,
+            "happiness": 0,
+            "sadness": 0.2,
+            "surprise": 0.4
+          }
+        },
+        "114": {
+          "text": "Worthless piece of metal.",
+          "occasion": "shooting",
+          "emotions": {
+            "anger": 0.6,
+            "disgust": 0.8,
+            "fear": 0.4,
+            "happiness": 0,
+            "sadness": 0.2,
+            "surprise": 0.4
+          }
+        }
+      }
+
+    }
